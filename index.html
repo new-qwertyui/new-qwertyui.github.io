@@ -13,7 +13,6 @@
         ::-webkit-scrollbar-thumb { background: #262626; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #404040; }
         
-        /* Smooth transitions between views */
         .fade-enter { animation: fadeIn 0.3s ease-in-out forwards; }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
@@ -26,13 +25,13 @@
     <header class="sticky top-0 z-40 bg-[#050505]/90 backdrop-blur-md border-b border-white/10 px-6 py-4">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <div>
-                <h1 class="text-2xl font-black tracking-tighter cursor-pointer" onclick="renderEraGrid()">
+                <h1 class="text-2xl font-black tracking-tighter cursor-pointer transition hover:text-indigo-400" onclick="goHome()">
                     YE<span class="text-indigo-500">TRACKER</span>
                 </h1>
             </div>
             <div class="relative w-64 hidden sm:block">
                 <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500"></i>
-                <input type="text" id="global-search" onkeyup="handleSearch()" placeholder="Search vault..." 
+                <input type="text" id="global-search" oninput="handleSearch()" placeholder="Search vault..." 
                        class="w-full bg-[#121212] border border-white/10 rounded-full py-2 pl-10 pr-4 text-sm text-white focus:outline-none focus:border-indigo-500 transition">
             </div>
         </div>
@@ -56,11 +55,9 @@
                     <p class="text-xs text-neutral-500 font-mono">Pillows.su API</p>
                 </div>
             </div>
-            
             <div class="w-1/3 flex justify-center">
                 <audio id="audio-player" controls class="h-10 w-full max-w-md filter invert hue-rotate-180 contrast-125 opacity-90"></audio>
             </div>
-            
             <div class="w-1/3 flex justify-end">
                 <button onclick="closePlayer()" class="text-neutral-500 hover:text-white transition">
                     <i data-lucide="x" class="w-5 h-5"></i>
@@ -71,6 +68,14 @@
 
     <script>
         let vaultData = {};
+        
+        // --- State Management Variables ---
+        let currentSearchQuery = "";
+        let currentView = "grid"; // 'grid' or 'era'
+        let activeEra = null;
+        
+        let scrollPosGrid = 0;
+        let scrollPosEras = {}; // Saves scroll position for each specific era
 
         async function init() {
             try {
@@ -81,71 +86,112 @@
                 document.getElementById('main-content').innerHTML = `
                     <div class="text-center py-20 text-red-500">
                         <i data-lucide="alert-triangle" class="w-12 h-12 mx-auto mb-4"></i>
-                        <p>Database error. Make sure your GitHub Action has generated data.json.</p>
+                        <p>Database error. Make sure your Python bot has generated data.json.</p>
                     </div>`;
                 lucide.createIcons();
             }
         }
 
-        // VIEW 1: The Grid of Eras
-        function renderEraGrid(searchQuery = "") {
+        // Return to Grid View
+        function goHome() {
+            if (currentView === "era") {
+                scrollPosEras[activeEra] = window.scrollY; // Save Era scroll position before leaving
+            }
+            currentView = "grid";
+            activeEra = null;
+            
+            // Restore search input field visually
+            document.getElementById('global-search').value = currentSearchQuery;
+            renderEraGrid();
+            
+            // Restore Grid Scroll Position
+            setTimeout(() => window.scrollTo({ top: scrollPosGrid, behavior: 'instant' }), 10);
+        }
+
+        // Render Grid
+        function renderEraGrid() {
             const main = document.getElementById('main-content');
             let html = `<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 fade-enter">`;
             
             let hasResults = false;
 
-            for (const [era, tracks] of Object.entries(vaultData)) {
-                // If searching, check if era name or any track matches
-                const matchesSearch = era.toLowerCase().includes(searchQuery) || 
-                                      tracks.some(t => t.name.toLowerCase().includes(searchQuery));
+            for (const [era, data] of Object.entries(vaultData)) {
+                const tracks = data.tracks || [];
                 
-                if (searchQuery && !matchesSearch) continue;
+                // Search filtering logic
+                const matchesSearch = era.toLowerCase().includes(currentSearchQuery) || 
+                                      tracks.some(t => t.name.toLowerCase().includes(currentSearchQuery));
+                
+                if (currentSearchQuery && !matchesSearch) continue;
+                if (tracks.length === 0) continue; // Skip empty eras
                 hasResults = true;
 
+                // Handle Dynamic Styling
+                const eraColor = data.color ? data.color : '#4f46e5'; // Default to Indigo if none
+                const rgb = hexToRgb(eraColor);
+                const glowStyle = rgb ? `background: rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.15);` : '';
+                const borderHover = rgb ? `border-color: rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.8);` : '';
+                
+                const imgElement = data.image 
+                    ? `<img src="${data.image}" class="w-16 h-16 rounded-lg object-cover mb-4 border border-white/10 shadow-lg">` 
+                    : `<div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-4"><i data-lucide="disc-3" class="w-6 h-6 text-neutral-500"></i></div>`;
+
                 html += `
-                    <div onclick="renderTrackList('${era.replace(/'/g, "\\'")}')" 
-                         class="bg-[#111] hover:bg-[#1a1a1a] border border-white/5 hover:border-indigo-500/50 rounded-2xl p-6 cursor-pointer transition-all duration-200 group relative overflow-hidden flex flex-col justify-between aspect-square">
-                        <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 rounded-full blur-3xl group-hover:bg-indigo-500/20 transition duration-500"></div>
+                    <div onclick="openEra('${era.replace(/'/g, "\\'")}')" 
+                         class="bg-[#111] hover:bg-[#151515] border border-white/5 rounded-2xl p-6 cursor-pointer transition-all duration-300 group relative overflow-hidden flex flex-col justify-between aspect-square"
+                         style="--hover-border: ${eraColor};"
+                         onmouseover="this.style.borderColor='var(--hover-border)'"
+                         onmouseout="this.style.borderColor='rgba(255,255,255,0.05)'">
                         
-                        <div>
-                            <i data-lucide="disc-3" class="w-8 h-8 text-neutral-600 group-hover:text-indigo-400 transition mb-4"></i>
-                            <h3 class="text-xl font-black tracking-tight leading-tight group-hover:text-white text-neutral-200 relative z-10">${era}</h3>
+                        <div class="absolute top-0 right-0 w-32 h-32 rounded-full blur-3xl transition duration-500 opacity-0 group-hover:opacity-100" style="${glowStyle}"></div>
+                        
+                        <div class="relative z-10">
+                            ${imgElement}
+                            <h3 class="text-xl font-black tracking-tight leading-tight group-hover:text-white text-neutral-200">${era}</h3>
                         </div>
                         
                         <div class="relative z-10 flex justify-between items-end mt-4">
-                            <span class="text-xs font-mono text-neutral-500 bg-black/50 px-2 py-1 rounded border border-white/5">${tracks.length} TRACKS</span>
-                            <i data-lucide="arrow-right" class="w-4 h-4 text-neutral-600 group-hover:text-indigo-400 transform group-hover:translate-x-1 transition"></i>
+                            <span class="text-xs font-mono text-neutral-500 bg-black/50 px-2 py-1 rounded border border-white/5" style="border-left: 2px solid ${eraColor};">${tracks.length} TRACKS</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-neutral-600 group-hover:text-white transform group-hover:translate-x-1 transition"></i>
                         </div>
                     </div>
                 `;
             }
-
             html += `</div>`;
-            
-            if (!hasResults) {
-                html = `<div class="text-center py-20 text-neutral-500">No eras or tracks match your search.</div>`;
-            }
+            if (!hasResults) html = `<div class="text-center py-20 text-neutral-500">No tracks match "${currentSearchQuery}".</div>`;
 
             main.innerHTML = html;
             lucide.createIcons();
-            window.scrollTo(0,0);
         }
 
-        // VIEW 2: The Detailed Tracklist for a specific Era
-        function renderTrackList(eraName) {
-            const tracks = vaultData[eraName];
+        // Open specific Era
+        function openEra(eraName) {
+            if (currentView === "grid") {
+                scrollPosGrid = window.scrollY; // Save main grid scroll position
+            }
+            currentView = "era";
+            activeEra = eraName;
+            
+            const data = vaultData[eraName];
+            const tracks = data.tracks;
+            const eraColor = data.color ? data.color : '#4f46e5';
             const main = document.getElementById('main-content');
             
+            const imgElement = data.image 
+                ? `<img src="${data.image}" class="w-24 h-24 rounded-xl object-cover border border-white/10 shadow-2xl">` 
+                : ``;
+
             let html = `
                 <div class="fade-enter">
-                    <button onclick="renderEraGrid()" class="flex items-center gap-2 text-neutral-500 hover:text-white transition mb-8 text-sm font-bold uppercase tracking-wider">
-                        <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Grid
+                    <button onclick="goHome()" class="flex items-center gap-2 text-neutral-500 hover:text-white transition mb-8 text-sm font-bold uppercase tracking-wider">
+                        <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Vault
                     </button>
                     
-                    <div class="mb-8 border-b border-white/10 pb-6 flex items-end justify-between">
+                    <div class="mb-8 border-b border-white/10 pb-6 flex items-end gap-6">
+                        ${imgElement}
                         <div>
-                            <h2 class="text-4xl font-black tracking-tighter mb-2">${eraName}</h2>
-                            <p class="text-sm font-mono text-indigo-400">${tracks.length} Master Audio Files</p>
+                            <h2 class="text-4xl font-black tracking-tighter mb-2" style="color: ${eraColor};">${eraName}</h2>
+                            <p class="text-sm font-mono text-neutral-400">${tracks.length} Master Audio Files</p>
                         </div>
                     </div>
 
@@ -154,6 +200,7 @@
 
             tracks.forEach((t, index) => {
                 const isPlayable = !!t.pillows_id;
+                // If search query exists, highlight it slightly by displaying the tracks anyway
                 html += `
                     <div class="flex items-center justify-between p-3 pl-4 rounded-xl hover:bg-[#111] border border-transparent hover:border-white/5 transition group">
                         <div class="flex items-center gap-4 flex-1 overflow-hidden">
@@ -167,7 +214,8 @@
                         <div class="flex-shrink-0 ml-4">
                             ${isPlayable ? `
                                 <button onclick="playTrack('${t.pillows_id}', '${t.name.replace(/'/g, "\\'")}')" 
-                                        class="w-10 h-10 rounded-full bg-indigo-600 hover:bg-indigo-500 flex items-center justify-center text-white shadow-lg shadow-indigo-900/50 transition-transform hover:scale-105">
+                                        class="w-10 h-10 rounded-full flex items-center justify-center text-white shadow-lg transition-transform hover:scale-105"
+                                        style="background-color: ${eraColor};">
                                     <i data-lucide="play" class="w-4 h-4 fill-current"></i>
                                 </button>
                             ` : `
@@ -181,37 +229,43 @@
             html += `</div></div>`;
             main.innerHTML = html;
             lucide.createIcons();
-            window.scrollTo(0,0);
+            
+            // Restore scroll position for this specific era if it exists
+            const savedScroll = scrollPosEras[eraName] || 0;
+            setTimeout(() => window.scrollTo({ top: savedScroll, behavior: 'instant' }), 10);
         }
 
-        // Global Search Handler
+        // Handle Search Input (Live)
         function handleSearch() {
-            const query = document.getElementById('global-search').value.toLowerCase();
-            renderEraGrid(query);
+            currentSearchQuery = document.getElementById('global-search').value.toLowerCase();
+            
+            // If they type a search while inside an era, force them back to the grid to see global results
+            if (currentView === "era") {
+                scrollPosEras[activeEra] = window.scrollY;
+                currentView = "grid";
+                activeEra = null;
+            }
+            renderEraGrid();
         }
 
-        // Audio Player Logic
         function playTrack(id, name) {
             const playerBar = document.getElementById('player-bar');
             const player = document.getElementById('audio-player');
-            const titleLabel = document.getElementById('now-playing-title');
-            
-            const streamUrl = `https://api.pillows.su/api/download/${id}`;
-            
-            titleLabel.innerText = name;
-            player.src = streamUrl;
-            
-            // Slide up the player
+            document.getElementById('now-playing-title').innerText = name;
+            player.src = `https://pillows.su/api/v1/file/download/${id}`;
             playerBar.classList.remove('translate-y-full');
-            
             player.play();
         }
 
         function closePlayer() {
-            const playerBar = document.getElementById('player-bar');
-            const player = document.getElementById('audio-player');
-            player.pause();
-            playerBar.classList.add('translate-y-full');
+            document.getElementById('audio-player').pause();
+            document.getElementById('player-bar').classList.add('translate-y-full');
+        }
+
+        // Helper: Convert Hex to RGB for Glow Effects
+        function hexToRgb(hex) {
+            var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ? { r: parseInt(result[1], 16), g: parseInt(result[2], 16), b: parseInt(result[3], 16) } : null;
         }
 
         init();
