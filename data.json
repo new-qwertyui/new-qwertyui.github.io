@@ -1,7 +1,8 @@
 {
-    "Before The College Dropout(Get Well Soon..., I'm Good..., Kon The Louis Vuitton Don)": {
+    "Before The College Dropout": {
+        "alt_names": "(Get Well Soon..., I'm Good..., Kon The Louis Vuitton Don)",
         "color": "#a61c00",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0Lp_SjZ4NimVj5TGXpDIbvgJSTUvFVAmsBkAE4exLQhw0TbO3mA6h8Y31-Enp68xY0Jx7h2fE4uWrG54-Y4SV7rnpXvOrYTOxPcdTD2QtiiHHvp5eiweV09eSQ9p4CdHCWztUrUe7HJgMC=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "10 in a Benz (with Go Getters) (feat. Rhymefest) (prod. ANDY C & Kanye West)(On 10 in a Benz)",
@@ -620,9 +621,10 @@
             }
         ]
     },
-    "The College Dropout(I'm Good)": {
+    "The College Dropout": {
+        "alt_names": "(I'm Good)",
         "color": "#571314",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2ACEvon3itL1MiV1Hl_YcsLTgOZruHWS5MMjYQRHfle2lv5yA9eG1PwiZf7WwL8l0YHlyPlYYGG3NjFYyjOLUQn0m5nvOfABR6Ai_l2LUZCHXccO-cyAiFwGdEsWEkHkVdz2a04HIXgxLu=w102-h108",
+        "image": "",
         "tracks": [
             {
                 "name": "18 Years(feat. John Legend)(Gold Digger)",
@@ -861,7 +863,7 @@
             },
             {
                 "name": "Never Let Me Down [V1](feat. ???) (prod. Kanye West)",
-                "pillows_id": "",
+                "pillows_id": "never",
                 "note": "Version before Tarrey Torae recorded. She said that \"Kanye brought a choir in... they went in the booth and began to sing, but then they came out of the booth. They realized what he was saying in the verses. They were like, 'Nah, there's cursing on there, and there's this and that.'\" Tarrey was then asked to record instead."
             },
             {
@@ -1046,7 +1048,7 @@
             },
             {
                 "name": "Unknown [Tarrey Torae Collaborations]",
-                "pillows_id": "",
+                "pillows_id": "never",
                 "note": "Tarrey Torae said she did about \"38 songs that I... with [Kanye] in total [through the years]\u2014some released, some not\"."
             },
             {
@@ -1142,8 +1144,9 @@
         ]
     },
     "Late Registration": {
+        "alt_names": "",
         "color": "#290a07",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S34GmHa4s_SFNMcpNJJ_Ewslg8e3w8Y-RPgbU7wjW5uSZzuo9pJ2ThSUuhnl2p5A_Phnh7tNtXzbwXaehWug5u7YYjhR-hbIEVP6CVL-wYBQaH-b7GEv8Gjq4AzEIl8d3xXj5lwZGG4jGvF=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "Bittersweet [V1](feat. John Mayer) (prod. Kanye West)(Bittersweet Poetry)",
@@ -1498,8 +1501,9 @@
         ]
     },
     "Graduation": {
+        "alt_names": "",
         "color": "#412257",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1vWCwRwZZHV5J6xGYfJYbWKrHSqZ9m07Esv3mcw40LemJAC20Mu-mcDSHEGFrhS6xM0uRdxzPXkE2Icr59bq9DLTdeEXEmP6BldJ5lx_ceXiPmJ6Gddfza4z7ueqp8sPC8QQ4cKNHjleL8=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "Ayyyy [V1](prod. Plain Pat, No ID, Jeff Bhasker, Hass, Kyoko Hamler, Warren Trinidad Taylor, Kanye West & PHENOM)(Ayyy Girl)",
@@ -1939,8 +1943,9 @@
         ]
     },
     "808s & Heartbreak": {
+        "alt_names": "",
         "color": "#c3cdcc",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2ytu9P2ODiBPlAZeaCO01ILs2zcDGfzBjLjV0JE9iHeIDmyrHGWCMRATFp9iRyV43O-FQ6Gc2niHPcGZc1MIGdlVZsFX3QAvwpWuvOrYtdOAr4VLjijO4y9SyF3UYcA63uEuHUUbce6vLp=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "Amazing [V2](ref. Consequence) (prod. Kanye West & Jeff Bhasker)",
@@ -2414,9 +2419,10 @@
             }
         ]
     },
-    "Good Ass Job(Winter Spring Summer Fall)": {
-        "color": "#6c05aa",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0KLBFNGpa2YwykoeUAoY3-UMDd9FqIU95Zzy56VO2wleh0mf2-PfDi5VFHoDhRfNs7ZzBDv1263_b3YvyrO9d1uoouoPSupK75FZWB0vS21N3qbdgi8UpNYFQ_zYfGAiO8NyCDeTJ-_9bG=w102-h103",
+    "Good Ass Job": {
+        "alt_names": "(Winter Spring Summer Fall)",
+        "color": "#d72d98",
+        "image": "",
         "tracks": [
             {
                 "name": "\u2728 Armed and Dangerous(prod. Kanye West)",
@@ -3732,12 +3738,273 @@
                 "name": "The WRLDFMS Tony Williams - Another You [V2](feat. Kanye West) (prod. Bink!)",
                 "pillows_id": "",
                 "note": "According to Tony Williams, \"'Another You' was recorded quite some time before its actual release. What Kanye is referencing with his opening line is the fact that it was his first verse he had written post Taylor Swift controversy. He\u2019d been on hiatus in Europe for several months focussing on his clothing line.. Real talk\u2026 ask Ye!!\""
+            },
+            {
+                "name": "All We Got Is Love [V2](feat. Ant Clemons)(We Got, We Love)",
+                "pillows_id": "d3b30aeba7ec0ebe6840b3c8c147d3d1",
+                "note": "Has Chance, Kanye and Ant recording over the open verse version. Ant's mic stem is the only file that leaked so his vocals are much louder than everything else. After finishing recording Chance and Kanye suggested simplifying the title to either \"We Got\" or \"We Love\"."
+            },
+            {
+                "name": "Anxiety [V1](feat. 070 Shake)",
+                "pillows_id": "3f39d5d49c794b3d95a21004ed20ab55",
+                "note": "Kanye and 070 Shake freestyle. Original snippet was leaked by TheSource2 on April 19th, 2021, with a second snippet leaking December 30th, 2025."
+            },
+            {
+                "name": "Anxiety [V2]",
+                "pillows_id": "",
+                "note": "Solo Chance version. Samples \"Joy\" by Kadhja Bonet. Original snippet was leaked by TheSource2 on April 19th, 2021, with a second snippet leaking December 30th, 2025."
+            },
+            {
+                "name": "Bars",
+                "pillows_id": "56041705c7245f636f74564766bbee7c",
+                "note": "OG Filename: Bars 9-6Chance vocals are LQ but Kanye's seem to be HQ. Most likely from Chicago Good Ass Job sessions. Was being sold on TheSource on February 5th, 2021, with a second snippet leaking December 30th, 2025. Said to be 3 minutes in length."
+            },
+            {
+                "name": "Black Men Don't Cheat [V1](feat. Ant Clemons) (prod. Pi'erre Bourne)(In My Eyes)",
+                "pillows_id": "fa0f23b834178383ffe51e3d3fd0fd6c",
+                "note": "Version with Ant Clemons background vocals and Chance the Rapper adlibs. Contains an open verse and alternate mumble Chance freestyle vocals. Can be heard heavily in the bleed for the version below. Snippet was posted by Kanye to Instagram."
+            },
+            {
+                "name": "Black Men Don't Cheat [V2](feat. Ant Clemons) (prod. Pi'erre Bourne)(In My Eyes)",
+                "pillows_id": "21e24b8a8e543e438e861c27c0a0ca8b",
+                "note": "Version of of the song found in the Dreezy Chakras zip. Contains Ant riffing over the beat and redoing some of his previous vocals."
+            },
+            {
+                "name": "Black Men Don't Cheat [V3](prod. Pi'erre Bourne)(In My Eyes)",
+                "pillows_id": "7c3c5bbc1bc0e05991e66102b657a73e",
+                "note": "OG Filename: Black Men Dont Cheat ScratchSolo Chance reference track. Has a long outro of just talking over no instrumental at the end."
+            },
+            {
+                "name": "\u2728 Clouted Up [V1](prod. Francis and the Lights)",
+                "pillows_id": "9530a624894c292abf974bd4f40eefdd",
+                "note": "OG Filename: Clouted up_verseFrancis and the Lights-produced song with a fully finished Chance verse and partially mumble voice memo vocals from both Chance and Kanye. Supposedly the intro track judging from the fact that the note which had \"Clouted Up\" in it had the title \"JWD intro\". Snippet posted to Chance's Twitter before being immediately removed."
+            },
+            {
+                "name": "Clouted Up [V2](ref. Ant Clemons) (prod. Francis and the Lights)",
+                "pillows_id": "0b6164337f0db4555905a3afc4fdea39",
+                "note": "Recorded during the Dreezy Chakras sessions. Contains Ant Clemons doing what may be a reference for Ye. Other than Ant's vocals it's seemingly the same as the previous version."
+            },
+            {
+                "name": "Do You Believe [V3](ref. Ant Clemons) (feat. Jhen\u00e9 Aiko & ???)(Rugrats In Paris)",
+                "pillows_id": "20c65e451a3a4d7590f78922c625ae63",
+                "note": "Version of of the song found in the Dreezy Chakras zip. Contains Ant Clemons vocals."
+            },
+            {
+                "name": "Fallout [V1](feat. 070 Shake)",
+                "pillows_id": "d9ccf477ee53829ba91eb5ab1c7c3a85",
+                "note": "Rough freestyle between Kanye and Shake. Said to be 2 minutes in length."
+            },
+            {
+                "name": "Fallout [V2](feat. 070 Shake)",
+                "pillows_id": "9621b90a9505d16b5e2614dc66540e13",
+                "note": "Chance freestyle over the song, said to contain short portions of Kanye's and Shake's vocals within. Said to be 2 minutes in length."
+            },
+            {
+                "name": "Good Ass Job(ref. ???)",
+                "pillows_id": "0eca7a82f2ce47f3254ef5f080a72937",
+                "note": "OG Filename: Good Ass Job [Kanye x Chance] (Demo 01)GAJ-era reference track with vocals from an unknown artist."
+            },
+            {
+                "name": "Gun Or God [V3](feat. Ant Clemons)",
+                "pillows_id": "42ae18a6030085184883bd4fe415110f",
+                "note": "Played during GAJ 2018 sessions. Contains a different vocal take from Chance and adlibs from Ant. Found in the Dreezy Chakras zip."
+            },
+            {
+                "name": "Hold It Down [V2](feat. Childish Gambino & Ant Clemons)",
+                "pillows_id": "ebb082436afa48d1044f473ff8722455",
+                "note": "Track originating in sessions for Owbum. Recorded on by Ant Clemons during sessions for GAJ 2018, however only his adlibs are available."
+            },
+            {
+                "name": "How To Go Crazy [V1](feat. Francis and the Lights & Ant Clemons) (prod. Bon Iver & Francis and the Lights)(The Big Day)",
+                "pillows_id": "811ce8d24cb167c13481f4565ee4030b",
+                "note": "Version played during Good Ass Job sessions. Has a different beat from release and mumble Kanye vocals. Contains Ant Clemons riffing. Around 5 minutes in length. Leaked in the Dreezy Chakras zip. Only Ant's vocal stem has leaked, however a snippet of another recording of this session leaked years before, and was given the fan name \"Australia\" before the real title was revealed."
+            },
+            {
+                "name": "How To Go Crazy [V2](ref. Ant Clemons) (feat. Francis and the Lights) (prod. Bon Iver & Francis and the Lights)(The Big Day)",
+                "pillows_id": "edc88deb2251ca86055e85a541023e62",
+                "note": "OG Filename: How to Go Crazy_ANT REF_092418Original version of the Chance the Rapper song \"The Big Day\" which ended up on Chance's album of the same name. Seller confirmed that it was recorded during the sessions for Good Ass Job. Has an Ant Clemons reference verse for Kanye, with three minutes of open after. Francis doesn't do the screaming he does in the final song, although otherwise his and Chance's parts are the same. Instrumental is more laid back than the final."
+            },
+            {
+                "name": "J.J. What [V2](feat. Via Rosa, Sterling Hayes & Ant Clemons) (prod. Nico Segal, The Potash Twins, J.Kelr & Spanish Diego)(Drowsiness)",
+                "pillows_id": "319d396b12e798201dec70f0374a892f",
+                "note": "Track originating from sessions from Chance the Rapper's scrapped album Owbum, apparently being worked on by Ant Clemons during GAJ 2018 sessions as he recorded adlibs on it. Lacks any Kanye vocals. Leaked in the Dreezy Chakras zip."
+            },
+            {
+                "name": "Like The Internet [V2](ref. Ant Clemons) (feat. Childish Gambino)",
+                "pillows_id": "ffc659c45dcaeffab5c8ba643d7a4c0b",
+                "note": "Track from the Chance and Childish Gambino collab album played during Good Ass Job sessions. Kanye and Ant Clemons are heard riffing over the open. Found in the Dreezy Chakras zip."
+            },
+            {
+                "name": "??? [V1](prod. Kanye West)(MJ)",
+                "pillows_id": "",
+                "note": "Kanye-produced beat that samples \"Never Can Say Goodbye\" by Jackson 5. Likely meant for Good Ass Job. made late August 2018, but it's unknown if Kanye recorded for it, however sessions of Chance's vocal takes for it were found in the Dreezy Chakras zip. Footage of Kanye chopping the sample while in the studio with Chance is linked."
+            },
+            {
+                "name": "\u2728 MJ [V2](prod. Kanye West & BoogzDaBeast)",
+                "pillows_id": "d276ae43a96e681388b0566b0503ea15",
+                "note": "OG Filename: KW-Chance MJ (boogz edit)More finished version with drums. Was played by Consequence on Instagram Live in October 2019."
+            },
+            {
+                "name": "MJ [V4](prod. Kanye West & BoogzDaBeast)",
+                "pillows_id": "49f2fb50ddc731a6371bf13b9e34bec8",
+                "note": "Found in the Dreezy \"I Love It (Remix) session\", which has many files of Chance the Rapper doing his verse for \"MJ\" (this is just one of them). Snippet of the song also leaked the same day the session cracked. Edit of what the full version sounds like is in Fakes."
+            },
+            {
+                "name": "On The Line(feat. 070 Shake & Francis And The Lights)",
+                "pillows_id": "737dbdce4b7dd5c1382d6044c4b0058c",
+                "note": "Rough freestyle between Kanye, Francis, and Shake. Shake's vocals are said to be short in length, with the entire track said to be 2 minutes long."
+            },
+            {
+                "name": "Pets [V4](feat. Ant Clemons)(The Garden)",
+                "pillows_id": "02459e439aeda6225eb45ba2e95a3896",
+                "note": "Early version with Ant vocals. Has a less developed instrumental than previous versions strangely. Found in the Dreezy \"Chakras\" zip."
+            },
+            {
+                "name": "Pets [V6](feat. Ant Clemons)(The Garden)",
+                "pillows_id": "c161c9516c6d405e2662fe49056f5853",
+                "note": "17 minute long jam session of Chance, Kanye, and Ant Clemons riffing on what would later become \"The Garden\". Likely still called Pets at this time. Features a speech from Kanye about happiness. He also takes a phone call 3 minutes into it. Leaked in the Dreezy Chakras zip."
+            },
+            {
+                "name": "Slide Around [V2](feat. Ant Clemons) (prod. Pi'erre Bourne)",
+                "pillows_id": "e3dc2f1d3376d081363407638168a557",
+                "note": "Original version with Ant Clemons background vocals. Has very short mumble Kanye vocals are heard in the end of Chance's verse and he is heard talking at the end of the recording. It is not known if he recorded for this song at all. Has only Chance's verse and open sections that were later filled in by Nicki Minaj and Lil Durk on the released version. Found in the Dreezy Chakras zip."
+            },
+            {
+                "name": "DJ Khalil - MSD PT2 [V1](prod. DJ Khalil & Dan Seeff)(80 Degrees, Hurricane, Hurricanes, Don't Let Me Down)",
+                "pillows_id": "",
+                "note": "Original sample loop made by DJ Khalil and Dan Seeff. Confirmed by them to exist through a lawsuit they filed against Ye for allegedly not paying them royalities or clearing the sample for release, even though the sample is not on the released version and Ye confirmed they were paid royalties before the suit. Khalil did the melody and Seeff did the bass according to the suit. Presumably taken by Boogz and Nascent and shown to Ye and Chance."
+            },
+            {
+                "name": "??? [V2](prod. DJ Khalil, Dan Seeff, BoogzDaBeast & Nascent)(80 Degrees, Hurricane, Hurricanes, Don't Let Me Down)",
+                "pillows_id": "accc6c390a06a43c59fdae748948eea6",
+                "note": "OG Filename: Chance Liked - 1 - 09.01.18First version of \"Hurricane\". Has the Kanye hook, and vocals that would be excluded from later versions of the song. This version uses the full sample instead of the looped version."
+            },
+            {
+                "name": "??? [V1](prod. ???)",
+                "pillows_id": "6a37fc3bdd0366635997478c439c9ec8",
+                "note": "OG Filename: Chance Liked - 2 - 09.01.18 & KW x Chance Liked - 2 REF - 09.01.18Freestyle made during a recording session with Chance the Rapper. Has no Chance vocals."
+            },
+            {
+                "name": "???",
+                "pillows_id": "5a7db1b34b509be27c7a942e4069e146",
+                "note": "OG Filename: Chance Liked - 3 - 09.01.18Solo Kanye freestyle. Said to be 1 minute in length."
+            },
+            {
+                "name": "???",
+                "pillows_id": "",
+                "note": "OG Filename: Chance Liked - 4 - 09.01.18Solo Kanye freestyle, over an instrumental that samples \"Out Of The Wilderness\" by The Como Mamas. Said to be 1 minute in length."
+            },
+            {
+                "name": "???",
+                "pillows_id": "3edcea328cff6871a2e2883f519451e2",
+                "note": "OG Filename: Chance Liked - 7 - 09.01.18Solo Kanye freestyle. Said to be 2 minutes in length."
+            },
+            {
+                "name": "??? [V1](Back In This Bitch Like)",
+                "pillows_id": "9f820b0af9e1595c067698be78f39612",
+                "note": "OG Filename: Chance Liked - 9 - 09.01.18Kanye freestyle made during a recording session with Chance. Features both voice memo vocals and studio vocals. Kanye at one point can be heard talking with Chance. Was later worked on by Consequence."
+            },
+            {
+                "name": "???(Chop 1B)",
+                "pillows_id": "d3299f101d0f30eb5f04bec0000d403c",
+                "note": "OG Filename: KW Chance Chop 1B 08.28.18 REF - 149.2bpmChance the Rapper freestyle made during a recording session with Kanye."
+            },
+            {
+                "name": "???(Chop 7)",
+                "pillows_id": "dd397afa06a2e71dcd8f5e93161bcbae",
+                "note": "OG Filename: KW Chance Chop 7 08.28.18 REF - 114bpmChance the Rapper freestyle made during a recording session with Kanye."
+            },
+            {
+                "name": "??? [V2](prod. Bongo ByTheWay)(Family)",
+                "pillows_id": "d96830ded330f2ec2272ce77ab527c1f",
+                "note": "Version of the track that Ant recorded his adlibs on. Can be heard heavily in the bleed."
+            },
+            {
+                "name": "??? [V3](feat. Ant Clemons) (prod. Bongo ByTheWay)(Family)",
+                "pillows_id": "d96830ded330f2ec2272ce77ab527c1f",
+                "note": "Played during the Dreezy Chakras session, contains Chance and Kanye vocals. Has some mumble from Kanye. Directly after their portion, Ant Clemons does some vocals for the track."
+            },
+            {
+                "name": "???(Good Job)",
+                "pillows_id": "e38619174eeff20cfd56081ad6c390dc",
+                "note": "Recording of Chance and Kanye together, likely recording references for Good Ass Job. Title is unknown, but \"Good Job\" is heard numerous times throughout the snippet. Was posted in mid-September 2018."
+            },
+            {
+                "name": "??? [V2](feat. Ant Clemons & Francis and the Lights)(Good Things Don't Last)",
+                "pillows_id": "15fcb91e66a01533f631dd2123c47cae",
+                "note": "Unknown track Ant Clemons recorded adlibs for. Found in the Dreezy Chakras zip. Contains unfinished Kanye and Chance vocals. Only the adlibs stem is avaliable."
+            },
+            {
+                "name": "??? [V2](feat. Ant Clemons)(I Feel Everything)",
+                "pillows_id": "7ee8bb419d38f6d82329b57aebf81cbe",
+                "note": "Track that was likely made in the same session as Pets, as it contains a simillar vibe and the same drum samples. Contains mumble vocals from Kanye and Chance, as well as adlibs from Ant. Only the adlibs stem is avaliable."
+            },
+            {
+                "name": "???(Oscar The Grouch)",
+                "pillows_id": "1cc1e18afbce05aaec4778241763b91a",
+                "note": "Played during the 2018 GAJ sessions. Lyrics were later reused during a scene in 500 Days In UCLA."
+            },
+            {
+                "name": "???(Park)",
+                "pillows_id": "212e88b5fd3760b4e4206d817499983a",
+                "note": "Track played twice in the Dreezy Chakras zip, randomly interupting Pets. Unknown if Kanye recorded, or if it was just Chance showing off his track."
+            },
+            {
+                "name": "???(Short Fuse)",
+                "pillows_id": "9e5edf6971309b45cf2c6ed6086c88cb",
+                "note": "Track played in the Dreezy Chakras zip. Unknown if Kanye recorded, or if it was just Chance showing off his track."
+            },
+            {
+                "name": "??? [V1](Timeout)",
+                "pillows_id": "055c9da203febeecd7552cbc03af89cd",
+                "note": "Version of the track that Ant recorded his adlibs on. Can be heard heavily in the bleed."
+            },
+            {
+                "name": "??? [V1](feat. Ant Clemons)(Timeout)",
+                "pillows_id": "055c9da203febeecd7552cbc03af89cd",
+                "note": "Freestyle recording during the big Good Ass Job recording session with Kanye, Chance, Ant and others. Mostly mumble freestyle, only file that leaked is the Ant Clemons mic stem so file where the bleed is made louder is linked alongside the unaltered song."
+            },
+            {
+                "name": "??? [V2](feat. ??? & Ant Clemons)(Rise Up)",
+                "pillows_id": "59b7310b45f4fe85a69684de1f19fbc7",
+                "note": "Unknown track Ant Clemons recorded adlibs for. Has a simillar gospel sample to \"No Problem\". Found in the Dreezy Chakras zip. Has an unknown mumble feature and no Kanye vocals."
+            },
+            {
+                "name": "???(feat. Ant Clemons)(You Were My)",
+                "pillows_id": "c32251895863b5033f78b258c4772287",
+                "note": "Track that was likely made in the same session as Pets, as it contains a simillar vibe and the same drum crash sample. Contains Chance and Ant Clemons freestyle vocals, but not any Kanye."
+            },
+            {
+                "name": "???(feat. Francis and the Lights) (prod. Francis and the Lights)(With Me)",
+                "pillows_id": "812ea28451d5c644a0d9e7fcb8426cc8",
+                "note": "Voice recording of Francis and the Lights from the Good Ass Job 2018 sessions. Part of a longer voice memo. Unclear if he is recording some sort of reference or a feature. Snippet leaked December 5th, 2025."
+            },
+            {
+                "name": "???(prod. Zaytoven)",
+                "pillows_id": "",
+                "note": "Producer Zaytoven was pictured in the studio with Kanye and Chance in August 2018. In 2020 he said, \"I wish I could play what we did in the studio that day with Chance and Kanye...the beat was made in five minutes, and he just automatically \u2014 he did what any other rapper would. He grabbed the microphone and just started freestyling and I was like, 'Man, this man is going so crazy right now.' It sounds so hard.\""
+            },
+            {
+                "name": "Unknown [Nascent Collaborations](prod. Nascent)",
+                "pillows_id": "",
+                "note": "Nascent stated that he was involved with sessions for the project. He said that the \"only song that came out from those sessions was 'Hurricane'. Everything else\u2026 it never came out\"."
+            },
+            {
+                "name": "Lil Yachty - OOPS [V2](feat. Kanye West, Chance the Rapper & K$upreme) (prod. Polo Boy Shawty)",
+                "pillows_id": "be1530b9123aeab558588ecbc79283d6",
+                "note": "Low quality recording of Kanye recording vocals over the open verse for the Lil Yachty song \"OOPS\" with the Chance verse. Could be a remix of the track due to the song releasing months before Kanye and Chance started working with each other. Found in the Dreezy \"Chakras\" session."
+            },
+            {
+                "name": "The Weeknd - ???(ref. Chance the Rapper & Kanye West)",
+                "pillows_id": "",
+                "note": "Rumored iPhone reference track made for The Weeknd. Nothing else is known."
             }
         ]
     },
-    "My Beautiful Dark Twisted Fantasy(My Dark Twisted Fantasy)": {
+    "My Beautiful Dark Twisted Fantasy": {
+        "alt_names": "(My Dark Twisted Fantasy)",
         "color": "#b11d33",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3zjxXqGOGEJVNocMWt0Qtsr345bNKBryfuk-dXdW_HnsEvBzi88zqKOcWDpZ2pocY9aLlh9vp_uq2FjOd9ZPSGJS3ckx85MiBQuLMVRrmS2y6A9ad4SZ76CTcif_iA9Bq6EAqaKSGSiAXO=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "All Of The Lights [V30](feat. Charlie Wilson & The WRLDFMS Tony Williams) (prod. Kanye West, Jeff Bhasker, MIKE DEAN, Ken Lewis, Rosie Danvers & Tommy D.)(Ghetto University)",
@@ -4006,9 +4273,10 @@
             }
         ]
     },
-    "Watch The Throne(Collaboration with JA\u0178-Z as The Throne)": {
+    "Watch The Throne": {
+        "alt_names": "(Collaboration with JA\u0178-Z as The Throne)",
         "color": "#846c47",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2-s8qi1eJTXKSVInYucI7athQ6mo_DcFcnS7CngzoVDuVrw7LNIIxh8dk9dQOno-fkKR2AfB8MdSgZCZWCuZ6Nx0yn9M3WE3oqvi83h8erbOESSg7GGxUlZJxrPZmgDswhTFJ-oua41lZx=w102-h106",
+        "image": "",
         "tracks": [
             {
                 "name": "POWER (Remix) [V2](feat. JA\u0178-Z, Swizz Beatz & John Legend) (prod. S1, Kanye West, No ID, MIKE DEAN, Jeff Bhasker, Plain Pat, Swizz Beatz & Ken Lewis)",
@@ -4392,9 +4660,10 @@
             }
         ]
     },
-    "Cruel Summer(Collaboration with G.O.O.D. Music)": {
+    "Cruel Summer": {
+        "alt_names": "(Collaboration with G.O.O.D. Music)",
         "color": "#858585",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2VwNwmRuDp0ozhprgnsCKEiPh4uHrw7nW_XbMYc9Pk-Y66WGvE5_R9eceOnQ0fjst3xfD6tbbhoSt0b6242dPnIwtPYSuWJECbIaJwHmLn6VszeD1zqwbCZ9S2CqhG8fvse-simyPDXBo_=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "Clique [V1](with Big Sean) (prod. Hit-Boy)",
@@ -4843,9 +5112,10 @@
             }
         ]
     },
-    "Yeezus(Thank God For Drugs, Nigger Cock)": {
+    "Yeezus": {
+        "alt_names": "(Thank God For Drugs, Nigger Cock)",
         "color": "#f3f3f3",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1nHPi9PH_QIQKoSuKzaI_pVfrcQ2gonIYnPJnCmN2VmPlDbnzd0Wo5fC40Kpzl-Q3nRTk5BIpku5Uti_rHMLg-Shi4V4VW86GQx4Qq-1c23QRvfQSsXMwARjVAsDyUc0ieTOp3qNf7NC9C=w102-h105",
+        "image": "",
         "tracks": [
             {
                 "name": "Bound(prod. Kanye West)(Nobody To Love, Bound 2)",
@@ -5954,9 +6224,10 @@
             }
         ]
     },
-    "Cruel Winter [V1](Collaboration with G.O.O.D. Music)": {
+    "Cruel Winter [V1]": {
+        "alt_names": "(Collaboration with G.O.O.D. Music)",
         "color": "#181818",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0DgrbkS9tkEhEpLU7lpyC4M7kSjyvwENb8rGOIro8z1kuv-HEsp-C5hRai_0ukLZHN0Eap_2FIvoQ9QTDoDdo8o2QxBacIdN0g-agYdY-yn6WtBrNECdoFMsgTuUz59eBtkabc8y7jrt5T=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "All The Time [V6](with Big Sean & Kanye West) (feat. Mr Hudson) (prod. No ID)(She's Like That All The Time)",
@@ -6040,9 +6311,10 @@
             }
         ]
     },
-    "Yeezus 2(Lost Yeezus, New Yeezus)": {
+    "Yeezus 2": {
+        "alt_names": "(Lost Yeezus, New Yeezus)",
         "color": "#322e28",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S33wRg4Ota2wV-SRxYcLWi8tsChqBFCInYNDpwHW68klhTgQTozQT8ms6XEAJ7SIMFLBaJgj5I_zs0unv-K-JmkEnZbsQQaJrXkegTbPOt1gZbHkpaVvT9Es2HB6idQekZXp7evHy4YTTZV=w102-h102",
+        "image": "",
         "tracks": [
             {
                 "name": "A Pas de Velour",
@@ -6616,7 +6888,7 @@
             },
             {
                 "name": "Unknown [Malik Yusef Reference Tracks](ref. Malik Yusef)",
-                "pillows_id": "",
+                "pillows_id": "status",
                 "note": "Malik tweeted that he'd be working with Kanye. This likely involved reference work."
             },
             {
@@ -7266,7 +7538,7 @@
             },
             {
                 "name": "Unknown [Chief Keef Collaboration]",
-                "pillows_id": "",
+                "pillows_id": "status",
                 "note": "Chief Keef notes they traded verses (likely implying two songs involved) for each others albums. One of the songs is almost certainly \"Nobody\", which Chief Keef released officially, but was also meant for Yeezus 2."
             },
             {
@@ -7376,9 +7648,10 @@
             }
         ]
     },
-    "So Help Me God(SWISH, Chiraq, Ye-Ye, Wolves, ULTRA)": {
+    "So Help Me God": {
+        "alt_names": "(SWISH, Chiraq, Ye-Ye, Wolves, ULTRA)",
         "color": "#6b5f5a",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3ohRZThUHMLQOHSvt8pHFASpSFlVPtvqcCXzFpE3CgnHK1xnOMnxENyPRVqhdeA63R9MDEK-Z2EQYtthvWY7cdO_Ute8pu_-LZ1MIpf35DSuujID91SULwnGCvzZ81MGYdtHZleWmUlkoF=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "Rihanna - Mitus Touch [V1](ref. Kanye West & Jeremih) (prod. Keyon Christ)(2 Rihannas, Mitus Touch)",
@@ -8067,9 +8340,10 @@
             }
         ]
     },
-    "SWISH(SWISH: The Overground Hell Road)": {
+    "SWISH": {
+        "alt_names": "(SWISH: The Overground Hell Road)",
         "color": "#ff7a74",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3HFAnE5EgomqESgAF-_cgkUGiY2SisDUNQNDZwgjPx6tqSCZe_Qg1dEkjGRDen9HVejS4MsP9BK8eJRfsihcWJ7wfPyzJ_iEihHp6IUYW5Nx_X8Jpa1bME3ZVOTSk-EhBoGTHgIkvpbw=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "2 Rihannas [V7](ref. Pusha T) (prod. Keyon Christ)(Mitus Touch)",
@@ -8148,7 +8422,7 @@
             },
             {
                 "name": "Come and Go [V2](ref. Lil Uzi Vert)(That's On You)",
-                "pillows_id": "",
+                "pillows_id": "sets",
                 "note": "Lil Uzi Vert reference track. Uzi would reuse this take on the 2018 Rambo Savage song \"That's On You\". Acapella leaked March 13th, 2025."
             },
             {
@@ -8283,7 +8557,7 @@
             },
             {
                 "name": "FML [V4](ref. Lil Uzi Vert) (prod. Hudson Mohawke)",
-                "pillows_id": "",
+                "pillows_id": "status",
                 "note": "According to frequent Lil Uzi Vert producer Lyle LeDuff, there is a version of the song with Uzi. Likely made in the same October 14th session as their other refs."
             },
             {
@@ -8718,9 +8992,10 @@
             }
         ]
     },
-    "The Life Of Pablo(So Help Me God, SWISH, WAVES, The White Picket Fence)": {
+    "The Life Of Pablo": {
+        "alt_names": "(So Help Me God, SWISH, WAVES, The White Picket Fence)",
         "color": "#f58b57",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1y94YtiamHytcO_m8JZg-gmXZPJesmUxOLm4z7V68swBELwHZVhWSOJH-girnPVTXMOdwD6GeDZzZCJVVJF91HFBsymgYZgVZKVs4tIIGpqTU_U6e6RPABwfN54hjlx2sENK-Dsp3tBuBX=w102-h107",
+        "image": "",
         "tracks": [
             {
                 "name": "10k HRS & A DREAM(ref. OG Maco)",
@@ -9314,9 +9589,10 @@
             }
         ]
     },
-    "Cruel Winter [V2](Collaboration with G.O.O.D. Music)": {
+    "Cruel Winter [V2]": {
+        "alt_names": "(Collaboration with G.O.O.D. Music)",
         "color": "#fbf3e8",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3NxBpd1bNIN05K5vDnbxxcrc_PqxgUO6sbmN3EdNjPr5rywvNeSSjYsO6DSxgDwGBHUgdJBxFXb8JkuM7mktleg9GscEzDLwIoobId4fRccubjyY2oT1fEoUDq0jUr93LXk7huCsECFd76=w102-h111",
+        "image": "",
         "tracks": [
             {
                 "name": "4 A Bag [V1](with The Weeknd & THE-DREAM) (prod. Carnage)(All I Know)",
@@ -9456,8 +9732,9 @@
         ]
     },
     "Turbo Grafx 16": {
+        "alt_names": "",
         "color": "#302b4a",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1f9pjfKC6TrHjXiGu5O6bCETCovVyn4bgRvcBHvXNXwNuuYrLcqfwxmV6dbk5AybVbawV4KLnBHf86TlIPfnr2KcRIcg_uVq1eD34Hse4jkieHn4BcF0-5wHjMEZJD6BAYQ2FNRxIszg=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "Bad Night [V14](feat. Young Thug) (prod. DJDS)(Rap Tarantino, Man Up, Too Reckless, Bad Guy)",
@@ -9746,9 +10023,10 @@
             }
         ]
     },
-    "Hitler(LOVE EVERYONE)": {
+    "Hitler": {
+        "alt_names": "(LOVE EVERYONE)",
         "color": "#b9cdd5",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0icAgYlct62fGOBKVzVVhCs4AjmRdh-jhjUUJmvUDKcPvEisIY-SPoSn3paejg8gvUHX9B9g6ZcoWupijAdjiVFgLFhYPT7NUeJG-4bOFTqLIoDimipdb1oxiAmXttQDKZFYicv2pVFs-2=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "Bad People [V1](feat. Bon Iver) (prod. Kanye West)(White Label)",
@@ -10823,8 +11101,9 @@
         ]
     },
     "ye": {
+        "alt_names": "",
         "color": "#152c40",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1x2Wi5i-w4vgyMXAajG_fUIzPM_oBF2vhycGzyh8kFjwKpzuhiRMTEB0OwtZ4T7GQaI74wVS7Rji_rDASC4DvWY9Xx4hRBZi3tnoTYIgjM_d7iH30HqskqKuIGKgX1cuq7uf9qid6xqYHm=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "All Mine [V4](feat. Ant Clemons) (prod. ???)",
@@ -11228,9 +11507,10 @@
             }
         ]
     },
-    "KIDS SEE GHOSTS(Collaboration with Kid Cudi as KIDS SEE GHOSTS)(Everybody Wins)": {
+    "KIDS SEE GHOSTS": {
+        "alt_names": "(Collaboration with Kid Cudi as KIDS SEE GHOSTS)(Everybody Wins)",
         "color": "#021b33",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0_kdIX4JtOZ60U5viinLaURmRNwnlbV-Nzg6p7OdYi606LDMa-fJsqxnVxWbKmqpTzRag8k_xG3Pv8LY9BZeWwY1QEQDUHicwnC9JZQXN0u-3UIqRg2wADlahvchXa8WMu_RdABhSX_rFT=w102-h105",
+        "image": "",
         "tracks": [
             {
                 "name": "4th Dimension [V1](feat. Louis Prima) (prod. Plain Pat, MIKE DEAN & Kanye West)",
@@ -11364,275 +11644,10 @@
             }
         ]
     },
-    "Good Ass Job (2018)(Collaboration with Chance the Rapper)(Job Well Done)": {
-        "color": "#d72d98",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0HC9Bb_fG4BSPC7Xta81_1VLHtjqTfss-PzbdRhPda_gSwkLu2neRR2T8hlGdz_gFd1s3_sc_gYfzg_o7Gc0DeMg7OvGifl9R1c7fc-hMxT3kzbWv4vpSeImvx15tnYXlR7G-vyzegCzsc=w102-h104",
-        "tracks": [
-            {
-                "name": "All We Got Is Love [V2](feat. Ant Clemons)(We Got, We Love)",
-                "pillows_id": "d3b30aeba7ec0ebe6840b3c8c147d3d1",
-                "note": "Has Chance, Kanye and Ant recording over the open verse version. Ant's mic stem is the only file that leaked so his vocals are much louder than everything else. After finishing recording Chance and Kanye suggested simplifying the title to either \"We Got\" or \"We Love\"."
-            },
-            {
-                "name": "Anxiety [V1](feat. 070 Shake)",
-                "pillows_id": "3f39d5d49c794b3d95a21004ed20ab55",
-                "note": "Kanye and 070 Shake freestyle. Original snippet was leaked by TheSource2 on April 19th, 2021, with a second snippet leaking December 30th, 2025."
-            },
-            {
-                "name": "Anxiety [V2]",
-                "pillows_id": "",
-                "note": "Solo Chance version. Samples \"Joy\" by Kadhja Bonet. Original snippet was leaked by TheSource2 on April 19th, 2021, with a second snippet leaking December 30th, 2025."
-            },
-            {
-                "name": "Bars",
-                "pillows_id": "56041705c7245f636f74564766bbee7c",
-                "note": "OG Filename: Bars 9-6Chance vocals are LQ but Kanye's seem to be HQ. Most likely from Chicago Good Ass Job sessions. Was being sold on TheSource on February 5th, 2021, with a second snippet leaking December 30th, 2025. Said to be 3 minutes in length."
-            },
-            {
-                "name": "Black Men Don't Cheat [V1](feat. Ant Clemons) (prod. Pi'erre Bourne)(In My Eyes)",
-                "pillows_id": "",
-                "note": "Version with Ant Clemons background vocals and Chance the Rapper adlibs. Contains an open verse and alternate mumble Chance freestyle vocals. Can be heard heavily in the bleed for the version below. Snippet was posted by Kanye to Instagram."
-            },
-            {
-                "name": "Black Men Don't Cheat [V2](feat. Ant Clemons) (prod. Pi'erre Bourne)(In My Eyes)",
-                "pillows_id": "",
-                "note": "Version of of the song found in the Dreezy Chakras zip. Contains Ant riffing over the beat and redoing some of his previous vocals."
-            },
-            {
-                "name": "Black Men Don't Cheat [V3](prod. Pi'erre Bourne)(In My Eyes)",
-                "pillows_id": "7c3c5bbc1bc0e05991e66102b657a73e",
-                "note": "OG Filename: Black Men Dont Cheat ScratchSolo Chance reference track. Has a long outro of just talking over no instrumental at the end."
-            },
-            {
-                "name": "\u2728 Clouted Up [V1](prod. Francis and the Lights)",
-                "pillows_id": "9530a624894c292abf974bd4f40eefdd",
-                "note": "OG Filename: Clouted up_verseFrancis and the Lights-produced song with a fully finished Chance verse and partially mumble voice memo vocals from both Chance and Kanye. Supposedly the intro track judging from the fact that the note which had \"Clouted Up\" in it had the title \"JWD intro\". Snippet posted to Chance's Twitter before being immediately removed."
-            },
-            {
-                "name": "Clouted Up [V2](ref. Ant Clemons) (prod. Francis and the Lights)",
-                "pillows_id": "0b6164337f0db4555905a3afc4fdea39",
-                "note": "Recorded during the Dreezy Chakras sessions. Contains Ant Clemons doing what may be a reference for Ye. Other than Ant's vocals it's seemingly the same as the previous version."
-            },
-            {
-                "name": "Do You Believe [V3](ref. Ant Clemons) (feat. Jhen\u00e9 Aiko & ???)(Rugrats In Paris)",
-                "pillows_id": "20c65e451a3a4d7590f78922c625ae63",
-                "note": "Version of of the song found in the Dreezy Chakras zip. Contains Ant Clemons vocals."
-            },
-            {
-                "name": "Fallout [V1](feat. 070 Shake)",
-                "pillows_id": "d9ccf477ee53829ba91eb5ab1c7c3a85",
-                "note": "Rough freestyle between Kanye and Shake. Said to be 2 minutes in length."
-            },
-            {
-                "name": "Fallout [V2](feat. 070 Shake)",
-                "pillows_id": "9621b90a9505d16b5e2614dc66540e13",
-                "note": "Chance freestyle over the song, said to contain short portions of Kanye's and Shake's vocals within. Said to be 2 minutes in length."
-            },
-            {
-                "name": "Good Ass Job(ref. ???)",
-                "pillows_id": "0eca7a82f2ce47f3254ef5f080a72937",
-                "note": "OG Filename: Good Ass Job [Kanye x Chance] (Demo 01)GAJ-era reference track with vocals from an unknown artist."
-            },
-            {
-                "name": "Gun Or God [V3](feat. Ant Clemons)",
-                "pillows_id": "42ae18a6030085184883bd4fe415110f",
-                "note": "Played during GAJ 2018 sessions. Contains a different vocal take from Chance and adlibs from Ant. Found in the Dreezy Chakras zip."
-            },
-            {
-                "name": "Hold It Down [V2](feat. Childish Gambino & Ant Clemons)",
-                "pillows_id": "ebb082436afa48d1044f473ff8722455",
-                "note": "Track originating in sessions for Owbum. Recorded on by Ant Clemons during sessions for GAJ 2018, however only his adlibs are available."
-            },
-            {
-                "name": "How To Go Crazy [V1](feat. Francis and the Lights & Ant Clemons) (prod. Bon Iver & Francis and the Lights)(The Big Day)",
-                "pillows_id": "811ce8d24cb167c13481f4565ee4030b",
-                "note": "Version played during Good Ass Job sessions. Has a different beat from release and mumble Kanye vocals. Contains Ant Clemons riffing. Around 5 minutes in length. Leaked in the Dreezy Chakras zip. Only Ant's vocal stem has leaked, however a snippet of another recording of this session leaked years before, and was given the fan name \"Australia\" before the real title was revealed."
-            },
-            {
-                "name": "How To Go Crazy [V2](ref. Ant Clemons) (feat. Francis and the Lights) (prod. Bon Iver & Francis and the Lights)(The Big Day)",
-                "pillows_id": "edc88deb2251ca86055e85a541023e62",
-                "note": "OG Filename: How to Go Crazy_ANT REF_092418Original version of the Chance the Rapper song \"The Big Day\" which ended up on Chance's album of the same name. Seller confirmed that it was recorded during the sessions for Good Ass Job. Has an Ant Clemons reference verse for Kanye, with three minutes of open after. Francis doesn't do the screaming he does in the final song, although otherwise his and Chance's parts are the same. Instrumental is more laid back than the final."
-            },
-            {
-                "name": "J.J. What [V2](feat. Via Rosa, Sterling Hayes & Ant Clemons) (prod. Nico Segal, The Potash Twins, J.Kelr & Spanish Diego)(Drowsiness)",
-                "pillows_id": "319d396b12e798201dec70f0374a892f",
-                "note": "Track originating from sessions from Chance the Rapper's scrapped album Owbum, apparently being worked on by Ant Clemons during GAJ 2018 sessions as he recorded adlibs on it. Lacks any Kanye vocals. Leaked in the Dreezy Chakras zip."
-            },
-            {
-                "name": "Like The Internet [V2](ref. Ant Clemons) (feat. Childish Gambino)",
-                "pillows_id": "ffc659c45dcaeffab5c8ba643d7a4c0b",
-                "note": "Track from the Chance and Childish Gambino collab album played during Good Ass Job sessions. Kanye and Ant Clemons are heard riffing over the open. Found in the Dreezy Chakras zip."
-            },
-            {
-                "name": "??? [V1](prod. Kanye West)(MJ)",
-                "pillows_id": "",
-                "note": "Kanye-produced beat that samples \"Never Can Say Goodbye\" by Jackson 5. Likely meant for Good Ass Job. made late August 2018, but it's unknown if Kanye recorded for it, however sessions of Chance's vocal takes for it were found in the Dreezy Chakras zip. Footage of Kanye chopping the sample while in the studio with Chance is linked."
-            },
-            {
-                "name": "\u2728 MJ [V2](prod. Kanye West & BoogzDaBeast)",
-                "pillows_id": "d276ae43a96e681388b0566b0503ea15",
-                "note": "OG Filename: KW-Chance MJ (boogz edit)More finished version with drums. Was played by Consequence on Instagram Live in October 2019."
-            },
-            {
-                "name": "MJ [V4](prod. Kanye West & BoogzDaBeast)",
-                "pillows_id": "49f2fb50ddc731a6371bf13b9e34bec8",
-                "note": "Found in the Dreezy \"I Love It (Remix) session\", which has many files of Chance the Rapper doing his verse for \"MJ\" (this is just one of them). Snippet of the song also leaked the same day the session cracked. Edit of what the full version sounds like is in Fakes."
-            },
-            {
-                "name": "On The Line(feat. 070 Shake & Francis And The Lights)",
-                "pillows_id": "737dbdce4b7dd5c1382d6044c4b0058c",
-                "note": "Rough freestyle between Kanye, Francis, and Shake. Shake's vocals are said to be short in length, with the entire track said to be 2 minutes long."
-            },
-            {
-                "name": "Pets [V4](feat. Ant Clemons)(The Garden)",
-                "pillows_id": "02459e439aeda6225eb45ba2e95a3896",
-                "note": "Early version with Ant vocals. Has a less developed instrumental than previous versions strangely. Found in the Dreezy \"Chakras\" zip."
-            },
-            {
-                "name": "Pets [V6](feat. Ant Clemons)(The Garden)",
-                "pillows_id": "c161c9516c6d405e2662fe49056f5853",
-                "note": "17 minute long jam session of Chance, Kanye, and Ant Clemons riffing on what would later become \"The Garden\". Likely still called Pets at this time. Features a speech from Kanye about happiness. He also takes a phone call 3 minutes into it. Leaked in the Dreezy Chakras zip."
-            },
-            {
-                "name": "Slide Around [V2](feat. Ant Clemons) (prod. Pi'erre Bourne)",
-                "pillows_id": "e3dc2f1d3376d081363407638168a557",
-                "note": "Original version with Ant Clemons background vocals. Has very short mumble Kanye vocals are heard in the end of Chance's verse and he is heard talking at the end of the recording. It is not known if he recorded for this song at all. Has only Chance's verse and open sections that were later filled in by Nicki Minaj and Lil Durk on the released version. Found in the Dreezy Chakras zip."
-            },
-            {
-                "name": "DJ Khalil - MSD PT2 [V1](prod. DJ Khalil & Dan Seeff)(80 Degrees, Hurricane, Hurricanes, Don't Let Me Down)",
-                "pillows_id": "",
-                "note": "Original sample loop made by DJ Khalil and Dan Seeff. Confirmed by them to exist through a lawsuit they filed against Ye for allegedly not paying them royalities or clearing the sample for release, even though the sample is not on the released version and Ye confirmed they were paid royalties before the suit. Khalil did the melody and Seeff did the bass according to the suit. Presumably taken by Boogz and Nascent and shown to Ye and Chance."
-            },
-            {
-                "name": "??? [V2](prod. DJ Khalil, Dan Seeff, BoogzDaBeast & Nascent)(80 Degrees, Hurricane, Hurricanes, Don't Let Me Down)",
-                "pillows_id": "accc6c390a06a43c59fdae748948eea6",
-                "note": "OG Filename: Chance Liked - 1 - 09.01.18First version of \"Hurricane\". Has the Kanye hook, and vocals that would be excluded from later versions of the song. This version uses the full sample instead of the looped version."
-            },
-            {
-                "name": "??? [V1](prod. ???)",
-                "pillows_id": "6a37fc3bdd0366635997478c439c9ec8",
-                "note": "OG Filename: Chance Liked - 2 - 09.01.18 & KW x Chance Liked - 2 REF - 09.01.18Freestyle made during a recording session with Chance the Rapper. Has no Chance vocals."
-            },
-            {
-                "name": "???",
-                "pillows_id": "5a7db1b34b509be27c7a942e4069e146",
-                "note": "OG Filename: Chance Liked - 3 - 09.01.18Solo Kanye freestyle. Said to be 1 minute in length."
-            },
-            {
-                "name": "???",
-                "pillows_id": "",
-                "note": "OG Filename: Chance Liked - 4 - 09.01.18Solo Kanye freestyle, over an instrumental that samples \"Out Of The Wilderness\" by The Como Mamas. Said to be 1 minute in length."
-            },
-            {
-                "name": "???",
-                "pillows_id": "3edcea328cff6871a2e2883f519451e2",
-                "note": "OG Filename: Chance Liked - 7 - 09.01.18Solo Kanye freestyle. Said to be 2 minutes in length."
-            },
-            {
-                "name": "??? [V1](Back In This Bitch Like)",
-                "pillows_id": "9f820b0af9e1595c067698be78f39612",
-                "note": "OG Filename: Chance Liked - 9 - 09.01.18Kanye freestyle made during a recording session with Chance. Features both voice memo vocals and studio vocals. Kanye at one point can be heard talking with Chance. Was later worked on by Consequence."
-            },
-            {
-                "name": "???(Chop 1B)",
-                "pillows_id": "d3299f101d0f30eb5f04bec0000d403c",
-                "note": "OG Filename: KW Chance Chop 1B 08.28.18 REF - 149.2bpmChance the Rapper freestyle made during a recording session with Kanye."
-            },
-            {
-                "name": "???(Chop 7)",
-                "pillows_id": "dd397afa06a2e71dcd8f5e93161bcbae",
-                "note": "OG Filename: KW Chance Chop 7 08.28.18 REF - 114bpmChance the Rapper freestyle made during a recording session with Kanye."
-            },
-            {
-                "name": "??? [V2](prod. Bongo ByTheWay)(Family)",
-                "pillows_id": "d96830ded330f2ec2272ce77ab527c1f",
-                "note": "Version of the track that Ant recorded his adlibs on. Can be heard heavily in the bleed."
-            },
-            {
-                "name": "??? [V3](feat. Ant Clemons) (prod. Bongo ByTheWay)(Family)",
-                "pillows_id": "d96830ded330f2ec2272ce77ab527c1f",
-                "note": "Played during the Dreezy Chakras session, contains Chance and Kanye vocals. Has some mumble from Kanye. Directly after their portion, Ant Clemons does some vocals for the track."
-            },
-            {
-                "name": "???(Good Job)",
-                "pillows_id": "e38619174eeff20cfd56081ad6c390dc",
-                "note": "Recording of Chance and Kanye together, likely recording references for Good Ass Job. Title is unknown, but \"Good Job\" is heard numerous times throughout the snippet. Was posted in mid-September 2018."
-            },
-            {
-                "name": "??? [V2](feat. Ant Clemons & Francis and the Lights)(Good Things Don't Last)",
-                "pillows_id": "15fcb91e66a01533f631dd2123c47cae",
-                "note": "Unknown track Ant Clemons recorded adlibs for. Found in the Dreezy Chakras zip. Contains unfinished Kanye and Chance vocals. Only the adlibs stem is avaliable."
-            },
-            {
-                "name": "??? [V2](feat. Ant Clemons)(I Feel Everything)",
-                "pillows_id": "7ee8bb419d38f6d82329b57aebf81cbe",
-                "note": "Track that was likely made in the same session as Pets, as it contains a simillar vibe and the same drum samples. Contains mumble vocals from Kanye and Chance, as well as adlibs from Ant. Only the adlibs stem is avaliable."
-            },
-            {
-                "name": "???(Oscar The Grouch)",
-                "pillows_id": "1cc1e18afbce05aaec4778241763b91a",
-                "note": "Played during the 2018 GAJ sessions. Lyrics were later reused during a scene in 500 Days In UCLA."
-            },
-            {
-                "name": "???(Park)",
-                "pillows_id": "212e88b5fd3760b4e4206d817499983a",
-                "note": "Track played twice in the Dreezy Chakras zip, randomly interupting Pets. Unknown if Kanye recorded, or if it was just Chance showing off his track."
-            },
-            {
-                "name": "???(Short Fuse)",
-                "pillows_id": "9e5edf6971309b45cf2c6ed6086c88cb",
-                "note": "Track played in the Dreezy Chakras zip. Unknown if Kanye recorded, or if it was just Chance showing off his track."
-            },
-            {
-                "name": "??? [V1](Timeout)",
-                "pillows_id": "055c9da203febeecd7552cbc03af89cd",
-                "note": "Version of the track that Ant recorded his adlibs on. Can be heard heavily in the bleed."
-            },
-            {
-                "name": "??? [V1](feat. Ant Clemons)(Timeout)",
-                "pillows_id": "055c9da203febeecd7552cbc03af89cd",
-                "note": "Freestyle recording during the big Good Ass Job recording session with Kanye, Chance, Ant and others. Mostly mumble freestyle, only file that leaked is the Ant Clemons mic stem so file where the bleed is made louder is linked alongside the unaltered song."
-            },
-            {
-                "name": "??? [V2](feat. ??? & Ant Clemons)(Rise Up)",
-                "pillows_id": "59b7310b45f4fe85a69684de1f19fbc7",
-                "note": "Unknown track Ant Clemons recorded adlibs for. Has a simillar gospel sample to \"No Problem\". Found in the Dreezy Chakras zip. Has an unknown mumble feature and no Kanye vocals."
-            },
-            {
-                "name": "???(feat. Ant Clemons)(You Were My)",
-                "pillows_id": "c32251895863b5033f78b258c4772287",
-                "note": "Track that was likely made in the same session as Pets, as it contains a simillar vibe and the same drum crash sample. Contains Chance and Ant Clemons freestyle vocals, but not any Kanye."
-            },
-            {
-                "name": "???(feat. Francis and the Lights) (prod. Francis and the Lights)(With Me)",
-                "pillows_id": "812ea28451d5c644a0d9e7fcb8426cc8",
-                "note": "Voice recording of Francis and the Lights from the Good Ass Job 2018 sessions. Part of a longer voice memo. Unclear if he is recording some sort of reference or a feature. Snippet leaked December 5th, 2025."
-            },
-            {
-                "name": "???(prod. Zaytoven)",
-                "pillows_id": "",
-                "note": "Producer Zaytoven was pictured in the studio with Kanye and Chance in August 2018. In 2020 he said, \"I wish I could play what we did in the studio that day with Chance and Kanye...the beat was made in five minutes, and he just automatically \u2014 he did what any other rapper would. He grabbed the microphone and just started freestyling and I was like, 'Man, this man is going so crazy right now.' It sounds so hard.\""
-            },
-            {
-                "name": "Unknown [Nascent Collaborations](prod. Nascent)",
-                "pillows_id": "",
-                "note": "Nascent stated that he was involved with sessions for the project. He said that the \"only song that came out from those sessions was 'Hurricane'. Everything else\u2026 it never came out\"."
-            },
-            {
-                "name": "Lil Yachty - OOPS [V2](feat. Kanye West, Chance the Rapper & K$upreme) (prod. Polo Boy Shawty)",
-                "pillows_id": "be1530b9123aeab558588ecbc79283d6",
-                "note": "Low quality recording of Kanye recording vocals over the open verse for the Lil Yachty song \"OOPS\" with the Chance verse. Could be a remix of the track due to the song releasing months before Kanye and Chance started working with each other. Found in the Dreezy \"Chakras\" session."
-            },
-            {
-                "name": "The Weeknd - ???(ref. Chance the Rapper & Kanye West)",
-                "pillows_id": "",
-                "note": "Rumored iPhone reference track made for The Weeknd. Nothing else is known."
-            }
-        ]
-    },
     "Yandhi [V1]": {
+        "alt_names": "",
         "color": "#f1ebff",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0lWj92woVxRHZJzyQ-mMiCjJ9i_2rNg6yXZwUp8nmawg9sd5gRyEnVIZlTUZxDAmuhycF_TF7JX3fjfqGoEBE4Yx4ug5KYv0HlyJm00Y9nSC1GQKjnq1TQQ4JpGrFekD_qISZlfERK_-RG=w102-h105",
+        "image": "",
         "tracks": [
             {
                 "name": "Brothers [V9](prod. 7 Aurelius & Zach Djurich)",
@@ -13031,9 +13046,10 @@
             }
         ]
     },
-    "Yandhi [V2](Soul Children)": {
+    "Yandhi [V2]": {
+        "alt_names": "(Soul Children)",
         "color": "#741b47",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1-hEfT24RCX7DeSb9jJVotPgNX6TqKriVdcgjD3UeS7HOoqvU--q1iYXbuGMuOPYoOCGtKOC3dSV_QoJ2HpL3b2THgWOw8F16bJfJO9xHS0i8W-iA645YBJEQozaryXBJ1XOFlVinCtA=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "+3 [V1](feat. ???) (prod. Angel Lopez)(Come Home)",
@@ -14592,9 +14608,10 @@
             }
         ]
     },
-    "JESUS IS KING(Christ Jesus)": {
+    "JESUS IS KING": {
+        "alt_names": "(Christ Jesus)",
         "color": "#182d9c",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S28ytMAAy1lxqQHZWdRN91XtWWtd7jh1lKLonKYlk5ZgfXErrn47ZiYHqDiBjaoNmpKTqwRnN9toVogfJh9UkfEM2hX2zNT8An7Ik8aqyKxkH6F8GQb7CwpqeaK8ZNCa-tJGNJcUCBuxpWD=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "Alien [V32](prod. FNZ, Andrew Dawson, Timbaland, Federico Vindver & Angel Lopez)(Space X / Alien, Aliens)",
@@ -16188,9 +16205,10 @@
             }
         ]
     },
-    "JESUS IS KING: The Dr. Dre Version(Collaboration with Dr. Dre)(JESUS IS KING II, JESUS IS LORD)": {
+    "JESUS IS KING: The Dr. Dre Version": {
+        "alt_names": "(Collaboration with Dr. Dre)(JESUS IS KING II, JESUS IS LORD)",
         "color": "#d5b81a",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S07owIhjHQZBys7DR3vkZtGLx2NdHBYEZsVGK5lyrPXVn9BYSrZuKtHcGjcw2xDG8B5nkmjivaP1ifyrvawIeRyjlTgwHm49AuFIUx6vGKkRT26Bv193J4z4GtZNls1ybbUp2CzrdJV8Vdk=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "Ashes [V19](feat. Sunday Service Choir & ???) (prod. Dr. Dre)(Beauty From Ashes, Beauty To Ashes, The Glade, Up From The Ashes)",
@@ -16389,9 +16407,10 @@
             }
         ]
     },
-    "God's Country(JESUS IS LORD, Our Beautiful Amazing Reality, Our Beautiful Light Clear Reality, Palm Springs, Palm Sundays, No Country For Old Men, The Light)": {
+    "God's Country": {
+        "alt_names": "(JESUS IS LORD, Our Beautiful Amazing Reality, Our Beautiful Light Clear Reality, Palm Springs, Palm Sundays, No Country For Old Men, The Light)",
         "color": "#1e1e6c",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0vuQBJ5b1MO4a-N6fTE9jBLwUZjzaSrF2Q4vtNuLWSquApqoM9qISPr1yej9AqJ3_uyS9aDqQQWBnzA-4YCiAXVHHv0obzhWn8IYxgfDG__8pLAGBd6X3hfgOTKm6_W6UjWVPgxVMavVkM=w102-h105",
+        "image": "",
         "tracks": [
             {
                 "name": "12,000 Acres [V2](prod. BoogzDaBeast, Francis and the Lights & FNZ)(12 Thousand Acres)",
@@ -18335,9 +18354,10 @@
             }
         ]
     },
-    "DONDA [V1](DONDA: WITH CHILD, DND WTH CHLD, DND, God's Country, The First Born Donda, Wyoming Album)": {
+    "DONDA [V1]": {
+        "alt_names": "(DONDA: WITH CHILD, DND WTH CHLD, DND, God's Country, The First Born Donda, Wyoming Album)",
         "color": "#e84125",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1bZlWi3p_D4ybIXX4ZEpzT06rO_mAnerGguPhIAL-v6x6jduyh_eRiwmo43imWKvePbfePGF3im9Ydo9BZjGxIxbgTkehZcUh2E12uqR6H9EhsqKe6I4shwEQPhQOcCSCIBi_da7AfXw=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "24 [V8](feat. Sunday Service Choir) (prod. AllDay, SH\u014cLZ, Dem Jointz, Rico Nichols & Darius Woodley)(24 Hours)",
@@ -20312,8 +20332,9 @@
         ]
     },
     "Donda [V2]": {
+        "alt_names": "",
         "color": "#398a96",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0-lz124ULVhL741T1IZEYDUo_1b5O8MGvjnPZd5SSpT2uUOUAHE0EkNElXPtSd4yWYlqf5AM_C252v10XBfK6lQI7RN1fAMafxZv-q3T6DH2H6htW6lJucPp5VJBZA3nPDSqN4mozBPvB0=w102-h102",
+        "image": "",
         "tracks": [
             {
                 "name": "88 Idea 2(prod. 88-Keys)",
@@ -21693,8 +21714,9 @@
         ]
     },
     "Donda [V3]": {
+        "alt_names": "",
         "color": "#020305",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1rsIz4QExHFTFDIBk35yWqWcUu2iczQ4DXPKlA_vixyZcY-CH-1pO0Go67J8n4VyeDFU7kQxSHsWm9G6kwTMuJCSzW7slAGjbs7tKtcX2iwCT5pd1Qa8ZANszUIDfleOdDgUHPMR9a43tI=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "24 [V32](feat. Lancey Foux) (prod. AllDay, SH\u014cLZ, Dem Jointz, Rico Nichols, Darius Woodley)(24 Hours)",
@@ -23793,9 +23815,10 @@
             }
         ]
     },
-    "DONDA 2(For The Children, Donda 2: 4 Da Kidz)": {
-        "color": "#c8c9d7",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2W9Xjjm38MXmdYjfuzQdz9wy9q7VBcd0YW9Ak7Ivq4lgQFCTBSwRrr9bw2hujZDwdteIL3WFTV6DStu-uSHD9HX9qu1IcpQtVVlFHgeYq2RHsSrQiRH3t2MzgBkDbkyttVssdm2bbkJOUm=w102-h101",
+    "DONDA 2": {
+        "alt_names": "(For The Children, Donda 2: 4 Da Kidz)",
+        "color": "#070707",
+        "image": "",
         "tracks": [
             {
                 "name": "Afrikanskflojt [V1]",
@@ -25819,7 +25842,7 @@
             },
             {
                 "name": "WiFi SCI FI [V16](ref. Fya Man) (feat. Sean Leon) (prod. Aaron Paris, CVRE & LUCA)(Dawn, Oxygen, OXYGEN OR WIFI, SCI FI WI FI, SCI-FI)",
-                "pillows_id": "",
+                "pillows_id": "8tcaEnjG",
                 "note": "OG Filename: WIFI SCIFI V2Solo Fya Man reference track. Ye vocals appear at the second half of the song. Vocals would be reused for the next version."
             },
             {
@@ -26619,7 +26642,7 @@
             },
             {
                 "name": "Unknown [Alex Klein Reference Tracks](ref. Alex Klein)",
-                "pillows_id": "",
+                "pillows_id": "status",
                 "note": "Alex Klein (of Stem Player fame) said he \"ended up writing lyrics\", and \"was invited and allowed to participate in lyric sessions on this project\". Unknown what he recorded for, if anything."
             },
             {
@@ -27306,12 +27329,228 @@
                 "name": "XXXTENTACION - Selfish [V15](feat. Ski Mask The Slump God) (prod. Ojivolta, John Cunningham & Twisco)",
                 "pillows_id": "7746a3532d8b90d1d38f539c520cbcdc",
                 "note": "OG FIlename: Selfish (Ski Mask rough)Has 10 seconds of vocals from Ski Mask The Slump God. Is otherwise open, besides X's chorus. Has the same beat as the version released on the Stem Player. Unknown who had the song at this point."
+            },
+            {
+                "name": "530 [V36](prod. Ye, FNZ, BoogzDaBeast, John Cunningham & MIKE DEAN)(Dear Summer, The Car's Missing, 530 AM, 5:30)",
+                "pillows_id": "7f80e300199d244017f54edc58e51bb1",
+                "note": "OG Filename: 12 530Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "BROKEN ROAD [V24](feat. Don Toliver) (prod. MIKE DEAN)(Nothing Wrong)",
+                "pillows_id": "65b2fc03f1bd064bc428ea7d8aea6852",
+                "note": "OG Filename: 2 BROKEN ROAD_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "BURN EVERYTHING [V8](feat. Sean Leon & SYRA) (prod. Bijan Amir, Sean Leon, John Cunningham & 88-Keys)(FINALE, 777, LEGEND)",
+                "pillows_id": "c7cbbe53d1f6474ccd17849cbce73e0e",
+                "note": "Version played by 88-Keys on a Twitch stream April 29th, 2025. Has new drums. Also seen on a tracklist made the same day."
+            },
+            {
+                "name": "BURN EVERYTHING [V9](feat. Sean Leon & SYRA) (prod. Bijan Amir, Sean Leon, John Cunningham & 88-Keys)(FINALE, 777, LEGEND)",
+                "pillows_id": "d545c40890b6521d99ec2a7cee93b1d3",
+                "note": "OG Filename: 16 BURN EVERYTHING_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "\ud83e\udd16 CITY OF CHI [V14](feat. Don Toliver) (prod. AllDay)(Closed For Business)",
+                "pillows_id": "e7deb54b03da622197d1b253bf64f8d2",
+                "note": "Heard on stream May 1st, 2025. Has new AI vocals."
+            },
+            {
+                "name": "\ud83e\udd16 CITY OF CHI [V19](feat. Don Toliver) (prod. AllDay)(Closed For Business)",
+                "pillows_id": "0a229db6027958afa81271b9b577492a",
+                "note": "OG Filename: 13 CITY OF CHI_v4_20250502_116BPMVersion intended for the Scrybe release of the album."
+            },
+            {
+                "name": "CITY OF GOD [V18](with Fivio Foreign & Alicia Keys) (feat. Playboi Carti) (prod. Ye, Tweek Tune, Hemz, Lil Mav, AyoAA, Ojivolta, Dem Jointz, Scoop, BoogzDaBeast, Non Native, Bordeaux, Mase, Kahran Reefer, Elliott Hardamon, Luis Mota, MIKE DEAN & The Chainsmokers)(City Of Gods, NYC, Empire State Of Mind Pt. 2, Go Easy)",
+                "pillows_id": "2ba591afb550e9c67230f1983a26477e",
+                "note": "OG Filename: 11 CITY OF GOD_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "FIRST TIME IN A LONG TIME [V44](ref. Rasta Tahj) (feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)",
+                "pillows_id": "",
+                "note": "Rasta Tahj reference track, which would have Ye AI vocals put over it for the final track. Confirmed by Tahj in an Instagram post. Heard in a documentary Rasta posted to his YouTube October 3rd, 2025, with lyrics unused on release."
+            },
+            {
+                "name": "FIRST TIME IN A LONG TIME [V47](ref. Really Doe) (feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)",
+                "pillows_id": "",
+                "note": "In the Rasta Tahj Spain documentary, Really Doe was seen recording for this song."
+            },
+            {
+                "name": "FIRST TIME [V48](ref. CyHi) (feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)(LONG TIME, First Time In A Long Time)",
+                "pillows_id": "b1ed4c1416f3fad59a65db599e2963e5",
+                "note": "OG Filename: CYHI_FIRST TIME REF &CYHI_LONG TIME REFUpdated 2025 CyHi reference track. Mentions being freed by Hitler."
+            },
+            {
+                "name": "FIRST TIME IN A LONG TIME [V49](feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)",
+                "pillows_id": "550e644d1cfca813ea6b5ea031f6bcbd",
+                "note": "OG Filename: 21 FIRST TIME IN A LONG TIME_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "KEEP THE FLOWERS [V55](prod. Digital Nas)(Flowers, Fuck Flowers)",
+                "pillows_id": "c910da134c86ec0a27ad7b366d8afda5",
+                "note": "OG Filename: 4 KEEP THE FLOWERS_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "GET LOST [V23](prod. Ojivolta & MIKE DEAN)(I GET LOST)",
+                "pillows_id": "9fbdfdd9f07beefde0e6a4317abd1342",
+                "note": "OG Filename: Get lost MIX MSTR.01_01IRKO mix. Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Just a new mix of previous versions."
+            },
+            {
+                "name": "GET LOST [V24](prod. Ojivolta & MIKE DEAN)(I GET LOST)",
+                "pillows_id": "47cdf07d9262b7ccec54939c560902eb",
+                "note": "Has louder mix compared to the previous version."
+            },
+            {
+                "name": "GET LOST [V25](prod. Ojivolta & MIKE DEAN)(I GET LOST)",
+                "pillows_id": "149d653b5eab2c2a66838724c094599f",
+                "note": "OG Filename: 3 GET LOST_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "\ud83e\udd16 HAPPY [V13](feat. Future) (prod. Wheezy & Digital Nas)(PAID TO TALK)",
+                "pillows_id": "94c0dc03c78a9631c008b87c918887eb",
+                "note": "Heard on stream April 30th, 2025. Has AI vocals."
+            },
+            {
+                "name": "\ud83e\udd16 HAPPY [V18](feat. Future) (prod. Wheezy & Digital Nas)(PAID TO TALK)",
+                "pillows_id": "1507885bb00d72f3a7db6319f673a869",
+                "note": "OG Filename: 9 HAPPY_V4_20250501Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "\ud83e\udd16 JESSE [V17](prod. Digital Nas)(Honesty, Damn Jesse)",
+                "pillows_id": "e8e915b2cc5ca014761a08753f71b9e0",
+                "note": "Seen on a tracklist made April 29th, 2025. Written as \"Fat Money Jesse\". Ye would then use AI over a Fat Money reference, as predicted."
+            },
+            {
+                "name": "\ud83e\udd16 JESSE [V18](prod. Digital Nas)(Honesty, Damn Jesse)",
+                "pillows_id": "bc5968c342ffdb3f92743c02dc8b5f1f",
+                "note": "Same as the previous version, but with vocals pitched slightly higher."
+            },
+            {
+                "name": "\ud83e\udd16 JESSE [V19](prod. Digital Nas)(Honesty, Damn Jesse)",
+                "pillows_id": "9bfc511b624acef11969d94d5ebbfc29",
+                "note": "OG Filename: 5 JESSEVersion intended for the Scrybe release of the album."
+            },
+            {
+                "name": "LORD LIFT ME UP [V13](feat. Vory) (prod. BoogzDaBeast)(Just Out My Reach, Lift Me Up)",
+                "pillows_id": "f8de2ec7d1db53e49d62fc0acce20767",
+                "note": "OG Filename: Lord lift MIX MSTR.01_01IRKO mix. Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Is basically the 2.22.22 version."
+            },
+            {
+                "name": "LORD LIFT ME UP [V15](feat. Vory) (prod. BoogzDaBeast)(Just Out My Reach, Lift Me Up)",
+                "pillows_id": "c82462ee8817ae3056fdf12603c83b20",
+                "note": "OG Filename: 20 LORD LIFT ME UP_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "\ud83e\udd16 LOUIE BAG [V21](feat. Jack Harlow) (prod. Digital Nas, Gavin Hadley & MIKE DEAN)(Virgil Passed, Louie Bags, Louis Bags, United)",
+                "pillows_id": "5553c9fe9b6f2250d1799488f637b06a",
+                "note": "Heard on stream April 30th, 2025. Has AI vocals."
+            },
+            {
+                "name": "\ud83e\udd16 LOUIE BAGS [V25](feat. Jack Harlow) (prod. Digital Nas, Gavin Hadley & MIKE DEAN)(Virgil Passed, Louie Bags, Louis Bags, United)",
+                "pillows_id": "ef3dd3ef6246f3c732b960f84f23f64b",
+                "note": "OG Filename: 17 LOUIE BAGS_v3_20250501Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "MAINTENANCE [V28](prod. Ojivolta)(Sky High, Still Won't Be Satisfied)",
+                "pillows_id": "118c33d58b13850df9d47b545150f387",
+                "note": "OG Filename: MAINTENANCE_20250429_YE_...Seen on a tracklist made April 29th, 2025. Snippet posted by Digital Nas to Twitter on the same day. Seemingly has Future removed."
+            },
+            {
+                "name": "MAINTENANCE [V29](prod. Ojivolta)(Sky High, Still Won't Be Satisfied)",
+                "pillows_id": "149fd345430547bda3227f44b43810d3",
+                "note": "OG Filename: 19 MAINTENANCE_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "\ud83e\udd16 MR. MIYAGI [V27](feat. Future & Playboi Carti) (prod. AyoAA, John Cunningham, MIKE DEAN & Ojivolta)",
+                "pillows_id": "c7d1780db51e465e4d774acae093b28d",
+                "note": "Heard on stream April 30th, 2025. Has AI vocals."
+            },
+            {
+                "name": "\ud83e\udd16 MR. MIYAGI [V31](feat. Future & Playboi Carti) (prod. AyoAA, John Cunningham, MIKE DEAN & Ojivolta)",
+                "pillows_id": "3634b441bda37d657db3d50f8a2e72fd",
+                "note": "OG Filename: 8 MR MIYAGI v3_20250501_YE_146BPMVersion intended for the Scrybe release of the album."
+            },
+            {
+                "name": "PABLO [V50](feat. Travis Scott & Future) (prod. ATL Jacob, Digital Nas, FNZ, John Cunningham, Ye, Ojivolta, Marilyn Manson & MIKE DEAN)",
+                "pillows_id": "f690bff49ffcc28d0377c8044954e0eb",
+                "note": "OG Filename: Pablo MIX MSTR.01_01IRKO mix. 2025 version mentioned on a Digital Nas Twitch stream. Basically the same as the 2.22.22 version."
+            },
+            {
+                "name": "\ud83e\udd16 PABLO [V51](feat. Marilyn Manson) (prod. ATL Jacob, Digital Nas, FNZ, John Cunningham, Ye, Ojivolta, Marilyn Manson & MIKE DEAN)",
+                "pillows_id": "562c39f64bda57ac3c8deae45fcd808d",
+                "note": "Version played on stream April 29th, 2025. Has AI vocals and new vocals from Marilyn Manson."
+            },
+            {
+                "name": "\ud83e\udd16 PABLO [V52](feat. Travis Scott, Future & Marilyn Manson) (prod. ATL Jacob, Digital Nas, FNZ, John Cunningham, Ye, Ojivolta, Marilyn Manson & MIKE DEAN)",
+                "pillows_id": "68516d8229eaa521ff861b131ae44149",
+                "note": "OG Filename: 7 PABLO_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "SCI-FI [V38](feat. Sean Leon) (prod. Ojivolta)(Dawn, Oxygen, Oxygen or Wifi, Sci Fi Wi Fi, Sci Fi)",
+                "pillows_id": "0b4c3e2af7ce7b0195993c33279b7d2e",
+                "note": "OG Filename: 14 SCI-FI_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "SECURITY [V32](prod. Kanye West, Lenny Wee, Digital Nas & MIKE DEAN)(Be On The Album, Security At Risk)",
+                "pillows_id": "ee528fa14b374c4aee7e2b90891353fc",
+                "note": "OG Filename: Security MIX MSTR.01_01IRKO mix. 2025 version played on a Digital Nas Twitch stream. Does not seem to have any differences to previous versions."
+            },
+            {
+                "name": "SECURITY [V34](feat. DJ Akademiks) (prod. Kanye West, Lenny Wee, Digital Nas & MIKE DEAN)(Be On The Album, Security At Risk)",
+                "pillows_id": "0ae882884eaa4dbb3152469b23aa91d5",
+                "note": "OG Filename: 10 SECURITY_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "\ud83e\udd16 SUZY [V14](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
+                "pillows_id": "74c87859e707126f1b5155491d360486",
+                "note": "Seen on a tracklist made April 29th, 2025. Heard on stream the same day, with AI vocals."
+            },
+            {
+                "name": "\ud83e\udd16 SUZY [V15](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
+                "pillows_id": "87e00618afa5bf6bd4044cee96a4c9c2",
+                "note": "Version heard on stream with a different AI used."
+            },
+            {
+                "name": "\ud83e\udd16 SUZY [V16](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
+                "pillows_id": "b6019372020f8c8210e97f618c228ebb",
+                "note": "Same as the previous version, but with the instrumental pitched up."
+            },
+            {
+                "name": "\ud83e\udd16 SUZY [V19](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
+                "pillows_id": "f76761683202f67726b2a79543daa7a8",
+                "note": "OG Filename: 15 SUZY_v3_20250501_YE_108BPMVersion intended for the Scrybe release of the album."
+            },
+            {
+                "name": "TOO EASY [V39](prod. Dem Jointz & Beach House)(2 EAZY, I'm Finna Love Me, Love Me, LOVE ME / 2 EASY)",
+                "pillows_id": "3fd05ed0d2acf868f70f7b433d37d6e8",
+                "note": "OG Filename: Too easy MIX MSTR.01_01IRKO mix. Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Does not have the finished verse and is basically the 2.22.22 version."
+            },
+            {
+                "name": "TOO EASY [V41](prod. Dem Jointz & Beach House)(2 EAZY, I'm Finna Love Me, Love Me, LOVE ME / 2 EASY)",
+                "pillows_id": "adc97a7786bb3167ea4e1e7c4b3b55cb",
+                "note": "OG Filename: 6 TOO EASY_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "TRUE LOVE [V37](feat. XXXTENTACION) (prod. John Cunningham, Ojivolta, MIKE DEAN & Twisco)",
+                "pillows_id": "4062ec0540870eda5c6106b557e953b6",
+                "note": "OG Filename: 1 TRUE LOVE_20250430Version intended for the Scrybe release of the album."
+            },
+            {
+                "name": "WE DID IT KID [V54](feat. Baby Keem, Quavo & Offset) (prod. Digital Nas, Ryan Svendsen & Ojivolta)(WE DID IT)",
+                "pillows_id": "691ae692c77d16ab82784c63f66d0693",
+                "note": "OG Filename: We did MIX MSTR.01_01Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Seems to just be the GOOD FRIDAY mix 7 made by MIKE DEAN, but mixed by IRKO instead."
+            },
+            {
+                "name": "WE DID IT [V56](feat. Baby Keem, Quavo & Offset) (prod. Digital Nas, Ryan Svendsen & Ojivolta)(We Did It Kid)",
+                "pillows_id": "3c5776bb2647d03cc17d1be7c2c93745",
+                "note": "OG Filename: 18 WE DID IT_20250430Version intended for the Scrybe release of the album."
             }
         ]
     },
-    "WAR(Collaboration with James Blake)(DONDA 2)": {
+    "WAR": {
+        "alt_names": "(Collaboration with James Blake)(DONDA 2)",
         "color": "#000000",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S0lkuyx3SV2f5QX0XjdmTr-fIUAdB4yyvB17cv0OE9Idv8cFnFtBPrNq36b3AVKgxVG2FGnO-L2wCEa6QkWIxNx78dCORgrJ28_3wdOng0-ldvv6cUeGeS3tQQ-KcmPJVirCb0QdwJ6oXYq=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "Fall In / All Is Love [V1](prod. James Blake)(Fall In Love, All In Love)",
@@ -27570,9 +27809,10 @@
             }
         ]
     },
-    "YEBU(Ye 3)": {
+    "YEBU": {
+        "alt_names": "(Ye 3)",
         "color": "#293341",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2RJ6dxckNvGWyFHBzsYbQV8gaxuk6Zmn3SajFQFsZ9w2JqdGPr01gzPYPELT-GbAjeHIg7QKFMsFQ4GXkvThoUYAFoHY9U9nsG0NclmJDQ537wbL6635sCJVOar5fHzUwFCDA2r_j9Vw=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "Beg Forgiveness [V1](prod. Kanye West)",
@@ -28211,9 +28451,10 @@
             }
         ]
     },
-    "\u00a5$(Collaboration with Ty Dolla $ign as \u00a5$)(Bad Bitch Playbook, Vultures)": {
+    "\u00a5$": {
+        "alt_names": "(Collaboration with Ty Dolla $ign as \u00a5$)(Bad Bitch Playbook, Vultures)",
         "color": "#ab9d7a",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2BSyd2_YemRUJaBAXfPCgLgit8eXyLjI6OPd6WmJ176XFYQy90tYdTcqnEu0bXc2W2tYuUkw6nU_smV0W6TU4aOFAMrLYP-hyLDcCeDDIv-wWhcwWW2cNKcY0ED1yaa_mo6YC5_LFIWg=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "A Thousand Times(prod. FNZ)",
@@ -29227,9 +29468,10 @@
             }
         ]
     },
-    "VULTURES 1(Collaboration with Ty Dolla $ign as \u00a5$)(Vultures)": {
+    "VULTURES 1": {
+        "alt_names": "(Collaboration with Ty Dolla $ign as \u00a5$)(Vultures)",
         "color": "#261d18",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3afT2hGReBfvtpQ8zIO76Zf8Ri-yRAPPFK1mivGHDpTNPTsN2-JM5l4d2E4Mo4BB-sAWld_9h8VEiyBO1OvF1asEf5iJmQOYzyDQYQqr8J0PHcFVOdD_XolQt1WWvRObxsueLnm2g2A96i=w102-h103",
+        "image": "",
         "tracks": [
             {
                 "name": "Back To Me [V15](feat. Freddie Gibbs & Quavo) (prod. Kanye West, 88-Keys, AyoAA & Wax Motif)",
@@ -30428,9 +30670,10 @@
             }
         ]
     },
-    "VULTURES 2(Collaboration with Ty Dolla $ign as \u00a5$)": {
+    "VULTURES 2": {
+        "alt_names": "(Collaboration with Ty Dolla $ign as \u00a5$)",
         "color": "#1f211f",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2SC2b8FQ2lPGAiWeHQvsR9QPaFn62pHtuhM-YKPM7n-7LNEIROnbH7u_ZwWiwluBT5XhUrPM4g6jZTPG-hY-aYq4e2Jf7rGwuuaeZrNcInOQImUlZPmCxHRlgudES6d74U8jDAjlbGw-XF=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "BELIEVER [V6](ref. Yseult) (prod. Adam Vadel)",
@@ -31485,8 +31728,9 @@
         ]
     },
     "BULLY [V1]": {
+        "alt_names": "",
         "color": "#383838",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2svaITxcQeg8XnfZwufCY7PeJjRlyrAEaquDJyv5y3EP3Lr3hXTrpbTCihxi2H0ToVzFPs6yhi5H2EgKgeSk7haDLITGJjr1RN9p5DGkg-nG5GWR73a0MV4jPmm9Ba_uYH74WvPE8PDwef=w102-h106",
+        "image": "",
         "tracks": [
             {
                 "name": "BEAUTY AND THE BEAST [V2](ref. Bella Blaq) (prod. Ye)",
@@ -32040,9 +32284,10 @@
             }
         ]
     },
-    "VULTURES 3(Collaboration with Ty Dolla $ign as \u00a5$)": {
+    "VULTURES 3": {
+        "alt_names": "(Collaboration with Ty Dolla $ign as \u00a5$)",
         "color": "#0b3b45",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3Cfmtl9s7cYc_AcWQDj8KdPTj5oy7fedlG_GPASu_n8vhtlE-BTIA650Z34yJj6THbopw4X94pAXlnecBovWezNIqaBLH5H5jt0TivpR36lboEwQF7uaPqaIaFQkqUYQ8DBec-yZ6PQg=w102-h20",
+        "image": "",
         "tracks": [
             {
                 "name": "DON'T KILL THE PARTY [V12](feat. Tyga) (prod. BNYX\u00ae, BBYKOBE, Lasik, Matty Spats & 206DEREK)",
@@ -32111,7 +32356,7 @@
             },
             {
                 "name": "Ty Dolla $ign - SAY IT [V1](feat. Playboi Carti & Ant Clemons) (prod. Ty Dolla $ign, Chrishan, Aye YB, damn james!, Wax Motif, Hitmaka, Anthony Kilhoffer, Caleb Bryant & AJ Williams)(TOUCH MY)",
-                "pillows_id": "",
+                "pillows_id": "lYcPirC",
                 "note": "Seen on a tracklist in a photo of Ty in the studio on February 7th, 2025. Called the \"original version\" by Ty. Has an Aye YB tag and a different lyric on the hook. Played by Ty Dolla $ign on stream November 24, 2025. According to Ty in an interview with Complex, Rema hopped on the song when Ty played him an early version of the album because Carti was on it."
             },
             {
@@ -32186,9 +32431,10 @@
             }
         ]
     },
-    "CARTI YE(Collaboration with Playboi Carti)": {
+    "CARTI YE": {
+        "alt_names": "(Collaboration with Playboi Carti)",
         "color": "#100d06",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2JKlVZdpf5wR2vLUgw01kAltf70hIx9MVtYfPOm8eQZG_hft8D18EqEBD-ysQ3iebDUcKTr_fAa-iC15ORMqkq5x0LgszUvXx9ZphRZKgowoaMrGaDJCWi08eWnf7B3I57JSP27-yNSA=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "ALIVE [V1](feat. DJ Swamp Izzo & YoungBoy Never Broke Again) (prod. Ye, Lucian & F1LTHY)",
@@ -32232,9 +32478,10 @@
             }
         ]
     },
-    "CUKKK(CUCK, WW3)": {
+    "CUKKK": {
+        "alt_names": "(CUCK, WW3)",
         "color": "#d5b78d",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3GruAGlz3TGgWtYykDVv-7rSMPH6KLoz5_XN08rkXd15JY0QxZSRQtxKEPqu6a2lDzDffnhsaji9Bt35WjblWLlQlOD6PY-wq3VY1NHt2NkIrjJYWB1udQCwNskXdwzUPJxOdDjE3oMA=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "ALIVE [V3](ref. CyHi) (feat. DJ Swamp Izzo) (prod. Ye, Lucian & F1LTHY)",
@@ -33418,230 +33665,10 @@
             }
         ]
     },
-    "DONDA 2 (2025)": {
-        "color": "#070707",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S3F0DeEwzKeJ8rRwZIGCsgoBcH1gbwQVqr-niXzIlTqxzfbj1ZZEBlAjkH-1EY0KYSwnrlJUysk4t_rOjVeKkrKk3MKZKanLcQuOTBXGqXBKzUIU8k0L3Vp_KelVxvitHJwN1l8JIskjzsC=w102-h20",
-        "tracks": [
-            {
-                "name": "530 [V36](prod. Ye, FNZ, BoogzDaBeast, John Cunningham & MIKE DEAN)(Dear Summer, The Car's Missing, 530 AM, 5:30)",
-                "pillows_id": "7f80e300199d244017f54edc58e51bb1",
-                "note": "OG Filename: 12 530Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "BROKEN ROAD [V24](feat. Don Toliver) (prod. MIKE DEAN)(Nothing Wrong)",
-                "pillows_id": "65b2fc03f1bd064bc428ea7d8aea6852",
-                "note": "OG Filename: 2 BROKEN ROAD_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "BURN EVERYTHING [V8](feat. Sean Leon & SYRA) (prod. Bijan Amir, Sean Leon, John Cunningham & 88-Keys)(FINALE, 777, LEGEND)",
-                "pillows_id": "c7cbbe53d1f6474ccd17849cbce73e0e",
-                "note": "Version played by 88-Keys on a Twitch stream April 29th, 2025. Has new drums. Also seen on a tracklist made the same day."
-            },
-            {
-                "name": "BURN EVERYTHING [V9](feat. Sean Leon & SYRA) (prod. Bijan Amir, Sean Leon, John Cunningham & 88-Keys)(FINALE, 777, LEGEND)",
-                "pillows_id": "d545c40890b6521d99ec2a7cee93b1d3",
-                "note": "OG Filename: 16 BURN EVERYTHING_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "\ud83e\udd16 CITY OF CHI [V14](feat. Don Toliver) (prod. AllDay)(Closed For Business)",
-                "pillows_id": "e7deb54b03da622197d1b253bf64f8d2",
-                "note": "Heard on stream May 1st, 2025. Has new AI vocals."
-            },
-            {
-                "name": "\ud83e\udd16 CITY OF CHI [V19](feat. Don Toliver) (prod. AllDay)(Closed For Business)",
-                "pillows_id": "0a229db6027958afa81271b9b577492a",
-                "note": "OG Filename: 13 CITY OF CHI_v4_20250502_116BPMVersion intended for the Scrybe release of the album."
-            },
-            {
-                "name": "CITY OF GOD [V18](with Fivio Foreign & Alicia Keys) (feat. Playboi Carti) (prod. Ye, Tweek Tune, Hemz, Lil Mav, AyoAA, Ojivolta, Dem Jointz, Scoop, BoogzDaBeast, Non Native, Bordeaux, Mase, Kahran Reefer, Elliott Hardamon, Luis Mota, MIKE DEAN & The Chainsmokers)(City Of Gods, NYC, Empire State Of Mind Pt. 2, Go Easy)",
-                "pillows_id": "2ba591afb550e9c67230f1983a26477e",
-                "note": "OG Filename: 11 CITY OF GOD_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "FIRST TIME IN A LONG TIME [V44](ref. Rasta Tahj) (feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)",
-                "pillows_id": "",
-                "note": "Rasta Tahj reference track, which would have Ye AI vocals put over it for the final track. Confirmed by Tahj in an Instagram post. Heard in a documentary Rasta posted to his YouTube October 3rd, 2025, with lyrics unused on release."
-            },
-            {
-                "name": "FIRST TIME IN A LONG TIME [V47](ref. Really Doe) (feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)",
-                "pillows_id": "",
-                "note": "In the Rasta Tahj Spain documentary, Really Doe was seen recording for this song."
-            },
-            {
-                "name": "FIRST TIME [V48](ref. CyHi) (feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)(LONG TIME, First Time In A Long Time)",
-                "pillows_id": "b1ed4c1416f3fad59a65db599e2963e5",
-                "note": "OG Filename: CYHI_FIRST TIME REF &CYHI_LONG TIME REFUpdated 2025 CyHi reference track. Mentions being freed by Hitler."
-            },
-            {
-                "name": "FIRST TIME IN A LONG TIME [V49](feat. Soulja Boy) (prod. AllDay, Ojivolta, Twisco & MIKE DEAN)",
-                "pillows_id": "550e644d1cfca813ea6b5ea031f6bcbd",
-                "note": "OG Filename: 21 FIRST TIME IN A LONG TIME_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "KEEP THE FLOWERS [V55](prod. Digital Nas)(Flowers, Fuck Flowers)",
-                "pillows_id": "c910da134c86ec0a27ad7b366d8afda5",
-                "note": "OG Filename: 4 KEEP THE FLOWERS_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "GET LOST [V23](prod. Ojivolta & MIKE DEAN)(I GET LOST)",
-                "pillows_id": "9fbdfdd9f07beefde0e6a4317abd1342",
-                "note": "OG Filename: Get lost MIX MSTR.01_01IRKO mix. Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Just a new mix of previous versions."
-            },
-            {
-                "name": "GET LOST [V24](prod. Ojivolta & MIKE DEAN)(I GET LOST)",
-                "pillows_id": "47cdf07d9262b7ccec54939c560902eb",
-                "note": "Has louder mix compared to the previous version."
-            },
-            {
-                "name": "GET LOST [V25](prod. Ojivolta & MIKE DEAN)(I GET LOST)",
-                "pillows_id": "149d653b5eab2c2a66838724c094599f",
-                "note": "OG Filename: 3 GET LOST_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "\ud83e\udd16 HAPPY [V13](feat. Future) (prod. Wheezy & Digital Nas)(PAID TO TALK)",
-                "pillows_id": "94c0dc03c78a9631c008b87c918887eb",
-                "note": "Heard on stream April 30th, 2025. Has AI vocals."
-            },
-            {
-                "name": "\ud83e\udd16 HAPPY [V18](feat. Future) (prod. Wheezy & Digital Nas)(PAID TO TALK)",
-                "pillows_id": "1507885bb00d72f3a7db6319f673a869",
-                "note": "OG Filename: 9 HAPPY_V4_20250501Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "\ud83e\udd16 JESSE [V17](prod. Digital Nas)(Honesty, Damn Jesse)",
-                "pillows_id": "e8e915b2cc5ca014761a08753f71b9e0",
-                "note": "Seen on a tracklist made April 29th, 2025. Written as \"Fat Money Jesse\". Ye would then use AI over a Fat Money reference, as predicted."
-            },
-            {
-                "name": "\ud83e\udd16 JESSE [V18](prod. Digital Nas)(Honesty, Damn Jesse)",
-                "pillows_id": "bc5968c342ffdb3f92743c02dc8b5f1f",
-                "note": "Same as the previous version, but with vocals pitched slightly higher."
-            },
-            {
-                "name": "\ud83e\udd16 JESSE [V19](prod. Digital Nas)(Honesty, Damn Jesse)",
-                "pillows_id": "9bfc511b624acef11969d94d5ebbfc29",
-                "note": "OG Filename: 5 JESSEVersion intended for the Scrybe release of the album."
-            },
-            {
-                "name": "LORD LIFT ME UP [V13](feat. Vory) (prod. BoogzDaBeast)(Just Out My Reach, Lift Me Up)",
-                "pillows_id": "f8de2ec7d1db53e49d62fc0acce20767",
-                "note": "OG Filename: Lord lift MIX MSTR.01_01IRKO mix. Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Is basically the 2.22.22 version."
-            },
-            {
-                "name": "LORD LIFT ME UP [V15](feat. Vory) (prod. BoogzDaBeast)(Just Out My Reach, Lift Me Up)",
-                "pillows_id": "c82462ee8817ae3056fdf12603c83b20",
-                "note": "OG Filename: 20 LORD LIFT ME UP_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "\ud83e\udd16 LOUIE BAG [V21](feat. Jack Harlow) (prod. Digital Nas, Gavin Hadley & MIKE DEAN)(Virgil Passed, Louie Bags, Louis Bags, United)",
-                "pillows_id": "5553c9fe9b6f2250d1799488f637b06a",
-                "note": "Heard on stream April 30th, 2025. Has AI vocals."
-            },
-            {
-                "name": "\ud83e\udd16 LOUIE BAGS [V25](feat. Jack Harlow) (prod. Digital Nas, Gavin Hadley & MIKE DEAN)(Virgil Passed, Louie Bags, Louis Bags, United)",
-                "pillows_id": "ef3dd3ef6246f3c732b960f84f23f64b",
-                "note": "OG Filename: 17 LOUIE BAGS_v3_20250501Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "MAINTENANCE [V28](prod. Ojivolta)(Sky High, Still Won't Be Satisfied)",
-                "pillows_id": "118c33d58b13850df9d47b545150f387",
-                "note": "OG Filename: MAINTENANCE_20250429_YE_...Seen on a tracklist made April 29th, 2025. Snippet posted by Digital Nas to Twitter on the same day. Seemingly has Future removed."
-            },
-            {
-                "name": "MAINTENANCE [V29](prod. Ojivolta)(Sky High, Still Won't Be Satisfied)",
-                "pillows_id": "149fd345430547bda3227f44b43810d3",
-                "note": "OG Filename: 19 MAINTENANCE_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "\ud83e\udd16 MR. MIYAGI [V27](feat. Future & Playboi Carti) (prod. AyoAA, John Cunningham, MIKE DEAN & Ojivolta)",
-                "pillows_id": "c7d1780db51e465e4d774acae093b28d",
-                "note": "Heard on stream April 30th, 2025. Has AI vocals."
-            },
-            {
-                "name": "\ud83e\udd16 MR. MIYAGI [V31](feat. Future & Playboi Carti) (prod. AyoAA, John Cunningham, MIKE DEAN & Ojivolta)",
-                "pillows_id": "3634b441bda37d657db3d50f8a2e72fd",
-                "note": "OG Filename: 8 MR MIYAGI v3_20250501_YE_146BPMVersion intended for the Scrybe release of the album."
-            },
-            {
-                "name": "PABLO [V50](feat. Travis Scott & Future) (prod. ATL Jacob, Digital Nas, FNZ, John Cunningham, Ye, Ojivolta, Marilyn Manson & MIKE DEAN)",
-                "pillows_id": "f690bff49ffcc28d0377c8044954e0eb",
-                "note": "OG Filename: Pablo MIX MSTR.01_01IRKO mix. 2025 version mentioned on a Digital Nas Twitch stream. Basically the same as the 2.22.22 version."
-            },
-            {
-                "name": "\ud83e\udd16 PABLO [V51](feat. Marilyn Manson) (prod. ATL Jacob, Digital Nas, FNZ, John Cunningham, Ye, Ojivolta, Marilyn Manson & MIKE DEAN)",
-                "pillows_id": "562c39f64bda57ac3c8deae45fcd808d",
-                "note": "Version played on stream April 29th, 2025. Has AI vocals and new vocals from Marilyn Manson."
-            },
-            {
-                "name": "\ud83e\udd16 PABLO [V52](feat. Travis Scott, Future & Marilyn Manson) (prod. ATL Jacob, Digital Nas, FNZ, John Cunningham, Ye, Ojivolta, Marilyn Manson & MIKE DEAN)",
-                "pillows_id": "68516d8229eaa521ff861b131ae44149",
-                "note": "OG Filename: 7 PABLO_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "SCI-FI [V38](feat. Sean Leon) (prod. Ojivolta)(Dawn, Oxygen, Oxygen or Wifi, Sci Fi Wi Fi, Sci Fi)",
-                "pillows_id": "0b4c3e2af7ce7b0195993c33279b7d2e",
-                "note": "OG Filename: 14 SCI-FI_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "SECURITY [V32](prod. Kanye West, Lenny Wee, Digital Nas & MIKE DEAN)(Be On The Album, Security At Risk)",
-                "pillows_id": "ee528fa14b374c4aee7e2b90891353fc",
-                "note": "OG Filename: Security MIX MSTR.01_01IRKO mix. 2025 version played on a Digital Nas Twitch stream. Does not seem to have any differences to previous versions."
-            },
-            {
-                "name": "SECURITY [V34](feat. DJ Akademiks) (prod. Kanye West, Lenny Wee, Digital Nas & MIKE DEAN)(Be On The Album, Security At Risk)",
-                "pillows_id": "0ae882884eaa4dbb3152469b23aa91d5",
-                "note": "OG Filename: 10 SECURITY_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "\ud83e\udd16 SUZY [V14](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
-                "pillows_id": "74c87859e707126f1b5155491d360486",
-                "note": "Seen on a tracklist made April 29th, 2025. Heard on stream the same day, with AI vocals."
-            },
-            {
-                "name": "\ud83e\udd16 SUZY [V15](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
-                "pillows_id": "87e00618afa5bf6bd4044cee96a4c9c2",
-                "note": "Version heard on stream with a different AI used."
-            },
-            {
-                "name": "\ud83e\udd16 SUZY [V16](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
-                "pillows_id": "b6019372020f8c8210e97f618c228ebb",
-                "note": "Same as the previous version, but with the instrumental pitched up."
-            },
-            {
-                "name": "\ud83e\udd16 SUZY [V19](prod. AllDay & Ojivolta)(Suzy More Time, Things Change)",
-                "pillows_id": "f76761683202f67726b2a79543daa7a8",
-                "note": "OG Filename: 15 SUZY_v3_20250501_YE_108BPMVersion intended for the Scrybe release of the album."
-            },
-            {
-                "name": "TOO EASY [V39](prod. Dem Jointz & Beach House)(2 EAZY, I'm Finna Love Me, Love Me, LOVE ME / 2 EASY)",
-                "pillows_id": "3fd05ed0d2acf868f70f7b433d37d6e8",
-                "note": "OG Filename: Too easy MIX MSTR.01_01IRKO mix. Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Does not have the finished verse and is basically the 2.22.22 version."
-            },
-            {
-                "name": "TOO EASY [V41](prod. Dem Jointz & Beach House)(2 EAZY, I'm Finna Love Me, Love Me, LOVE ME / 2 EASY)",
-                "pillows_id": "adc97a7786bb3167ea4e1e7c4b3b55cb",
-                "note": "OG Filename: 6 TOO EASY_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "TRUE LOVE [V37](feat. XXXTENTACION) (prod. John Cunningham, Ojivolta, MIKE DEAN & Twisco)",
-                "pillows_id": "4062ec0540870eda5c6106b557e953b6",
-                "note": "OG Filename: 1 TRUE LOVE_20250430Version intended for the Scrybe release of the album."
-            },
-            {
-                "name": "WE DID IT KID [V54](feat. Baby Keem, Quavo & Offset) (prod. Digital Nas, Ryan Svendsen & Ojivolta)(WE DID IT)",
-                "pillows_id": "691ae692c77d16ab82784c63f66d0693",
-                "note": "OG Filename: We did MIX MSTR.01_01Filename seen in a Dropbox folder accidentally leaked by Digital Nas on a livestream with Adin Ross. Seems to just be the GOOD FRIDAY mix 7 made by MIKE DEAN, but mixed by IRKO instead."
-            },
-            {
-                "name": "WE DID IT [V56](feat. Baby Keem, Quavo & Offset) (prod. Digital Nas, Ryan Svendsen & Ojivolta)(We Did It Kid)",
-                "pillows_id": "3c5776bb2647d03cc17d1be7c2c93745",
-                "note": "OG Filename: 18 WE DID IT_20250430Version intended for the Scrybe release of the album."
-            }
-        ]
-    },
     "IN A PERFECT WORLD": {
+        "alt_names": "",
         "color": "",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S2bL3m2qghhycnBk_31sfZZw0cVaDGc2h037gTxPE9n_YsBwI0jdoeIqODWMU1Qg5Jrug-sFVQq4G-mLguiJ2_0LQhZXXsJcD6jsajQ8K4dpQ_oZBPAvy8NWttBko35dd4qEEY_4T69z954=w102-h104",
+        "image": "",
         "tracks": [
             {
                 "name": "BULLETPROOF [V2](prod. DrZeus, Rvei & Ye)",
@@ -33885,7 +33912,7 @@
             },
             {
                 "name": "Hass - ANYTHING IS POSSIBLE [V5]",
-                "pillows_id": "",
+                "pillows_id": "sQtHR1o",
                 "note": "According to a tracklist posted by Hassan, Ye is no longer featured on this song, likely due to the use of AI to make his vocals higher quality. Snippet previewed by Hassan on an Instagram post September 29th, 2025."
             },
             {
@@ -33900,7 +33927,7 @@
             },
             {
                 "name": "Ty Dolla $ign - DON'T KILL THE PARTY [V16](feat. Quavo & Juicy J) (prod. BNYX\u00ae, BBYKOBE, Juicy J, Lasik, Matty Spats & 206DEREK)",
-                "pillows_id": "",
+                "pillows_id": "0197faf079557573a643ae720165fa90",
                 "note": "Another alternate mix with harder kicks, played by Ty several times. Played by Ty Dolla $ign on N3ON's stream September 26, 2025."
             },
             {
@@ -33936,8 +33963,9 @@
         ]
     },
     "BULLY [V2]": {
+        "alt_names": "",
         "color": "#262626",
-        "image": "https://docs.google.com/sheets-images-rt/AC1M7S1au7w4U1A6SxAlYQuhamIpO2U7bLcgr1IV3q1U9B_DvU8jP3REMCKJ3U7ntEEE_mQj-iubrQ6C_8AaHuEoP2p_QC51QDJ49ohDbx1MrUuQ7IUC23RvwTuTSVi3AGF76WVCiBXBJ30bkg=w102-h20",
+        "image": "",
         "tracks": [
             {
                 "name": "\ud83e\udd16 ALL THE LOVE [V31](prod. Quadwoofer & Sheffmade)(GAS CHAMBERS)",
@@ -34262,6 +34290,7 @@
         ]
     },
     "Collaboration with Travis Scott": {
+        "alt_names": "",
         "color": "#6d7b70",
         "image": "https://docs.google.com/sheets-images-rt/AC1M7S1QR7XnSoVmLA34BvEpPcLCA9ccwcAT62_C0HVzGIb7apIKvWDzofILWvQVL2Th6-xifP2cmZk35UbGFrArR5JKhGYHdZm3_lHXqm17nszQxoPhk0g2gvyyGWQhqw1rrLC27CynoN4nEw=w102-h20",
         "tracks": [
@@ -34299,11 +34328,6 @@
                 "name": "Ankle (22 dating a 14 year old)",
                 "pillows_id": "",
                 "note": "Kanye Videos & Media Rarities Tracker [Dead Link]"
-            },
-            {
-                "name": "",
-                "pillows_id": "",
-                "note": ""
             },
             {
                 "name": "Currently, the best sites for uploading files are:Pillowcase, Fileditch & ImgBB.",
