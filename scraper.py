@@ -37,32 +37,25 @@ def scrape():
         
         if era_marker in first_cell_text:
             full_era_text = cells[1].get_text().strip()
-            
-            # Split Era Name from Alt Names (stuff in parentheses)
-            # Regex looks for the first "(" and takes everything before it as the name
             name_match = re.split(r'\s*\(', full_era_text, 1)
             era_main_name = name_match[0].strip()
             era_alt_names = f"({name_match[1]}" if len(name_match) > 1 else ""
 
             if era_main_name and not any(k in era_main_name.lower() for k in trash_keywords):
                 current_era = era_main_name
-                if current_era not in tracker_data:
-                    tracker_data[current_era] = {
-                        "alt_names": era_alt_names,
-                        "color": "", 
-                        "image": "", 
-                        "tracks": []
-                    }
+                tracker_data[current_era] = {
+                    "alt_names": era_alt_names,
+                    "color": "", 
+                    "image": "", 
+                    "tracks": []
+                }
                 
                 if len(cells) > 4:
                     img_tag = cells[4].find('img')
                     if img_tag:
                         src = img_tag.get('src', '')
-                        # FIX: Ensure URL starts with https:
-                        if src.startswith('//'):
-                            src = 'https:' + src
-                        elif not src.startswith('http'):
-                            src = 'https://' + src
+                        if src.startswith('//'): src = 'https:' + src
+                        elif not src.startswith('http'): src = 'https://' + src
                         tracker_data[current_era]["image"] = src
                 
                 for c in cells[1].get('class', []):
@@ -75,14 +68,22 @@ def scrape():
             track_name = cells[1].get_text().strip()
             if track_name and not any(k in track_name.lower() for k in trash_keywords):
                 raw_link = link_tag['href']
+                
+                # Check for Pillows or External Source
                 pillows_id = ""
-                id_match = re.search(r'(?:f/|download/)([a-zA-Z0-9]+)', raw_link)
-                if id_match:
-                    pillows_id = id_match.group(1)
+                ext_link = ""
+                
+                p_match = re.search(r'(?:f/|download/)([a-zA-Z0-9]+)', raw_link)
+                if p_match:
+                    pillows_id = p_match.group(1)
+                else:
+                    # It's an external link (YouTube, Kraken, etc)
+                    ext_link = raw_link
 
                 tracker_data[current_era]["tracks"].append({
                     "name": track_name,
                     "pillows_id": pillows_id,
+                    "external_url": ext_link,
                     "note": cells[2].get_text().strip() if len(cells) > 2 else ""
                 })
 
