@@ -2,90 +2,216 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ye Tracker | Pillows Edition</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <title>Ye Tracker | Pillows Edition</title>
     <style>
-        .era-content { display: none; }
-        .era-section.active .era-content { display: block; }
-        .era-section.active .chevron { transform: rotate(180deg); }
+        body { background-color: #050505; color: #ededed; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #050505; }
+        ::-webkit-scrollbar-thumb { background: #262626; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #404040; }
+        
+        /* Smooth transitions between views */
+        .fade-enter { animation: fadeIn 0.3s ease-in-out forwards; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
-<body class="bg-[#050505] text-slate-100 font-sans p-4 md:p-10">
+<body class="font-sans antialiased pb-24">
 
-    <div class="max-w-4xl mx-auto">
-        <header class="mb-10 flex justify-between items-center">
+    <header class="sticky top-0 z-40 bg-[#050505]/90 backdrop-blur-md border-b border-white/10 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
             <div>
-                <h1 class="text-4xl font-black tracking-tighter italic">BULLY<span class="text-indigo-600">TRACKER</span></h1>
-                <p class="text-xs font-mono text-slate-500 uppercase">Pillows API Integration</p>
+                <h1 class="text-2xl font-black tracking-tighter cursor-pointer" onclick="renderEraGrid()">
+                    YE<span class="text-indigo-500">TRACKER</span>
+                </h1>
             </div>
-            <div id="player-container" class="hidden bg-indigo-900/20 border border-indigo-500/30 p-3 rounded-xl flex items-center gap-4">
-                <span id="now-playing" class="text-xs font-bold truncate max-w-[150px]">Select a track</span>
-                <audio id="audio-player" controls class="h-8 w-48"></audio>
+            <div class="relative w-64 hidden sm:block">
+                <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500"></i>
+                <input type="text" id="global-search" onkeyup="handleSearch()" placeholder="Search vault..." 
+                       class="w-full bg-[#121212] border border-white/10 rounded-full py-2 pl-10 pr-4 text-sm text-white focus:outline-none focus:border-indigo-500 transition">
             </div>
-        </header>
+        </div>
+    </header>
 
-        <div id="container" class="space-y-4">
-            <div class="animate-pulse text-slate-700 text-center py-20">Initializing Vault...</div>
+    <main class="max-w-6xl mx-auto p-6" id="main-content">
+        <div class="text-center py-32 text-neutral-600 animate-pulse">
+            <i data-lucide="database" class="w-12 h-12 mx-auto mb-4 opacity-50"></i>
+            <p>Syncing with vault...</p>
+        </div>
+    </main>
+
+    <div id="player-bar" class="fixed bottom-0 left-0 right-0 bg-[#0a0a0a] border-t border-white/10 p-4 transform translate-y-full transition-transform duration-300 z-50 flex justify-center">
+        <div class="max-w-6xl w-full flex items-center justify-between gap-4">
+            <div class="flex items-center gap-3 w-1/3">
+                <div class="w-12 h-12 bg-[#1a1a1a] rounded flex items-center justify-center border border-white/5 shadow-lg">
+                    <i data-lucide="music" class="w-6 h-6 text-indigo-500"></i>
+                </div>
+                <div class="overflow-hidden">
+                    <p id="now-playing-title" class="text-sm font-bold text-white truncate">No track selected</p>
+                    <p class="text-xs text-neutral-500 font-mono">Pillows.su API</p>
+                </div>
+            </div>
+            
+            <div class="w-1/3 flex justify-center">
+                <audio id="audio-player" controls class="h-10 w-full max-w-md filter invert hue-rotate-180 contrast-125 opacity-90"></audio>
+            </div>
+            
+            <div class="w-1/3 flex justify-end">
+                <button onclick="closePlayer()" class="text-neutral-500 hover:text-white transition">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
         </div>
     </div>
 
     <script>
+        let vaultData = {};
+
         async function init() {
             try {
                 const response = await fetch('data.json');
-                const data = await response.json();
-                const container = document.getElementById('container');
-                container.innerHTML = '';
-
-                for (const [era, tracks] of Object.entries(data)) {
-                    const section = document.createElement('div');
-                    section.className = "era-section bg-[#0f0f0f] border border-white/5 rounded-2xl overflow-hidden shadow-2xl";
-                    
-                    section.innerHTML = `
-                        <button class="w-full p-6 text-left flex justify-between items-center hover:bg-white/5 transition" onclick="this.parentElement.classList.toggle('active')">
-                            <span class="text-xl font-bold tracking-tight">${era}</span>
-                            <i data-lucide="chevron-down" class="chevron transition-transform text-slate-500"></i>
-                        </button>
-                        <div class="era-content border-t border-white/5 bg-black/40">
-                            <div class="divide-y divide-white/5">
-                                ${tracks.map(t => `
-                                    <div class="flex justify-between items-center p-4 hover:bg-indigo-600/5 transition group">
-                                        <div class="flex-1">
-                                            <h4 class="font-medium text-slate-200">${t.name}</h4>
-                                            <p class="text-[10px] text-slate-500 uppercase font-mono">${t.note || 'No metadata'}</p>
-                                        </div>
-                                        ${t.pillows_id ? `
-                                            <button onclick="playTrack('${t.pillows_id}', '${t.name.replace(/'/g, "\\'")}')" 
-                                                    class="bg-white text-black p-2 rounded-full hover:scale-110 transition shadow-lg">
-                                                <i data-lucide="play" class="w-4 h-4 fill-current"></i>
-                                            </button>
-                                        ` : '<span class="text-[10px] text-slate-700 font-bold">NO FILE</span>'}
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    `;
-                    container.appendChild(section);
-                }
-                lucide.createIcons();
+                vaultData = await response.json();
+                renderEraGrid();
             } catch (e) {
-                document.getElementById('container').innerHTML = `<p class="text-red-500">Failed to load data.json. Ensure the bot has run once.</p>`;
+                document.getElementById('main-content').innerHTML = `
+                    <div class="text-center py-20 text-red-500">
+                        <i data-lucide="alert-triangle" class="w-12 h-12 mx-auto mb-4"></i>
+                        <p>Database error. Make sure your GitHub Action has generated data.json.</p>
+                    </div>`;
+                lucide.createIcons();
             }
         }
 
-        function playTrack(id, name) {
-            const player = document.getElementById('audio-player');
-            const container = document.getElementById('player-container');
-            const label = document.getElementById('now-playing');
+        // VIEW 1: The Grid of Eras
+        function renderEraGrid(searchQuery = "") {
+            const main = document.getElementById('main-content');
+            let html = `<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 fade-enter">`;
             
-            // Pillows Direct Stream URL format
+            let hasResults = false;
+
+            for (const [era, tracks] of Object.entries(vaultData)) {
+                // If searching, check if era name or any track matches
+                const matchesSearch = era.toLowerCase().includes(searchQuery) || 
+                                      tracks.some(t => t.name.toLowerCase().includes(searchQuery));
+                
+                if (searchQuery && !matchesSearch) continue;
+                hasResults = true;
+
+                html += `
+                    <div onclick="renderTrackList('${era.replace(/'/g, "\\'")}')" 
+                         class="bg-[#111] hover:bg-[#1a1a1a] border border-white/5 hover:border-indigo-500/50 rounded-2xl p-6 cursor-pointer transition-all duration-200 group relative overflow-hidden flex flex-col justify-between aspect-square">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-500/5 rounded-full blur-3xl group-hover:bg-indigo-500/20 transition duration-500"></div>
+                        
+                        <div>
+                            <i data-lucide="disc-3" class="w-8 h-8 text-neutral-600 group-hover:text-indigo-400 transition mb-4"></i>
+                            <h3 class="text-xl font-black tracking-tight leading-tight group-hover:text-white text-neutral-200 relative z-10">${era}</h3>
+                        </div>
+                        
+                        <div class="relative z-10 flex justify-between items-end mt-4">
+                            <span class="text-xs font-mono text-neutral-500 bg-black/50 px-2 py-1 rounded border border-white/5">${tracks.length} TRACKS</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4 text-neutral-600 group-hover:text-indigo-400 transform group-hover:translate-x-1 transition"></i>
+                        </div>
+                    </div>
+                `;
+            }
+
+            html += `</div>`;
+            
+            if (!hasResults) {
+                html = `<div class="text-center py-20 text-neutral-500">No eras or tracks match your search.</div>`;
+            }
+
+            main.innerHTML = html;
+            lucide.createIcons();
+            window.scrollTo(0,0);
+        }
+
+        // VIEW 2: The Detailed Tracklist for a specific Era
+        function renderTrackList(eraName) {
+            const tracks = vaultData[eraName];
+            const main = document.getElementById('main-content');
+            
+            let html = `
+                <div class="fade-enter">
+                    <button onclick="renderEraGrid()" class="flex items-center gap-2 text-neutral-500 hover:text-white transition mb-8 text-sm font-bold uppercase tracking-wider">
+                        <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Grid
+                    </button>
+                    
+                    <div class="mb-8 border-b border-white/10 pb-6 flex items-end justify-between">
+                        <div>
+                            <h2 class="text-4xl font-black tracking-tighter mb-2">${eraName}</h2>
+                            <p class="text-sm font-mono text-indigo-400">${tracks.length} Master Audio Files</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+            `;
+
+            tracks.forEach((t, index) => {
+                const isPlayable = !!t.pillows_id;
+                html += `
+                    <div class="flex items-center justify-between p-3 pl-4 rounded-xl hover:bg-[#111] border border-transparent hover:border-white/5 transition group">
+                        <div class="flex items-center gap-4 flex-1 overflow-hidden">
+                            <span class="text-neutral-600 font-mono text-xs w-6">${index + 1}</span>
+                            <div class="flex-1 truncate">
+                                <p class="text-sm font-bold text-neutral-200 group-hover:text-white truncate">${t.name}</p>
+                                ${t.note ? `<p class="text-[10px] text-neutral-500 font-mono uppercase truncate mt-0.5">${t.note}</p>` : ''}
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 ml-4">
+                            ${isPlayable ? `
+                                <button onclick="playTrack('${t.pillows_id}', '${t.name.replace(/'/g, "\\'")}')" 
+                                        class="w-10 h-10 rounded-full bg-indigo-600 hover:bg-indigo-500 flex items-center justify-center text-white shadow-lg shadow-indigo-900/50 transition-transform hover:scale-105">
+                                    <i data-lucide="play" class="w-4 h-4 fill-current"></i>
+                                </button>
+                            ` : `
+                                <span class="px-3 py-1 bg-[#1a1a1a] text-neutral-600 text-[10px] font-bold uppercase rounded border border-white/5">Vaulted</span>
+                            `}
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `</div></div>`;
+            main.innerHTML = html;
+            lucide.createIcons();
+            window.scrollTo(0,0);
+        }
+
+        // Global Search Handler
+        function handleSearch() {
+            const query = document.getElementById('global-search').value.toLowerCase();
+            renderEraGrid(query);
+        }
+
+        // Audio Player Logic
+        function playTrack(id, name) {
+            const playerBar = document.getElementById('player-bar');
+            const player = document.getElementById('audio-player');
+            const titleLabel = document.getElementById('now-playing-title');
+            
             const streamUrl = `https://api.pillows.su/api/download/${id}`;
             
-            label.innerText = name;
+            titleLabel.innerText = name;
             player.src = streamUrl;
-            container.classList.remove('hidden');
+            
+            // Slide up the player
+            playerBar.classList.remove('translate-y-full');
+            
             player.play();
+        }
+
+        function closePlayer() {
+            const playerBar = document.getElementById('player-bar');
+            const player = document.getElementById('audio-player');
+            player.pause();
+            playerBar.classList.add('translate-y-full');
         }
 
         init();
