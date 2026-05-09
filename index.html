@@ -167,7 +167,7 @@
         // Open specific Era
         function openEra(eraName) {
             if (currentView === "grid") {
-                scrollPosGrid = window.scrollY; // Save main grid scroll position
+                scrollPosGrid = window.scrollY;
             }
             currentView = "era";
             activeEra = eraName;
@@ -180,27 +180,27 @@
             const imgElement = data.image 
                 ? `<img src="${data.image}" class="w-24 h-24 rounded-xl object-cover border border-white/10 shadow-2xl">` 
                 : ``;
-
+        
             let html = `
                 <div class="fade-enter">
                     <button onclick="goHome()" class="flex items-center gap-2 text-neutral-500 hover:text-white transition mb-8 text-sm font-bold uppercase tracking-wider">
                         <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Vault
                     </button>
                     
-                    <div class="mb-8 border-b border-white/10 pb-6 flex items-end gap-6">
+                    <div class="mb-8 border-b border-white/10 pb-6 flex items-center gap-6">
                         ${imgElement}
                         <div>
-                            <h2 class="text-4xl font-black tracking-tighter mb-2" style="color: ${eraColor};">${eraName}</h2>
-                            <p class="text-sm font-mono text-neutral-400">${tracks.length} Master Audio Files</p>
+                            <h2 class="text-4xl font-black tracking-tighter" style="color: ${eraColor};">${eraName}</h2>
+                            ${data.alt_names ? `<p class="text-lg text-neutral-400 font-medium italic mt-1">${data.alt_names}</p>` : ''}
+                            <p class="text-xs font-mono text-neutral-500 mt-2 uppercase tracking-widest">${tracks.length} Tracks Found</p>
                         </div>
                     </div>
-
+        
                     <div class="flex flex-col gap-2">
             `;
-
+        
             tracks.forEach((t, index) => {
                 const isPlayable = !!t.pillows_id;
-                // If search query exists, highlight it slightly by displaying the tracks anyway
                 html += `
                     <div class="flex items-center justify-between p-3 pl-4 rounded-xl hover:bg-[#111] border border-transparent hover:border-white/5 transition group">
                         <div class="flex items-center gap-4 flex-1 overflow-hidden">
@@ -210,7 +210,6 @@
                                 ${t.note ? `<p class="text-[10px] text-neutral-500 font-mono uppercase truncate mt-0.5">${t.note}</p>` : ''}
                             </div>
                         </div>
-                        
                         <div class="flex-shrink-0 ml-4">
                             ${isPlayable ? `
                                 <button onclick="playTrack('${t.pillows_id}', '${t.name.replace(/'/g, "\\'")}')" 
@@ -225,12 +224,11 @@
                     </div>
                 `;
             });
-
+        
             html += `</div></div>`;
             main.innerHTML = html;
             lucide.createIcons();
             
-            // Restore scroll position for this specific era if it exists
             const savedScroll = scrollPosEras[eraName] || 0;
             setTimeout(() => window.scrollTo({ top: savedScroll, behavior: 'instant' }), 10);
         }
