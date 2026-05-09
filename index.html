@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ye Tracker | Pillows Edition</title>
+    <title>Ye Tracker</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -252,7 +252,7 @@
             const playerBar = document.getElementById('player-bar');
             const player = document.getElementById('audio-player');
             document.getElementById('now-playing-title').innerText = name;
-            player.src = `https://pillows.su/api/v1/file/download/${id}`;
+            player.src = `https://api.pillows.su/api/download/${id}`;
             playerBar.classList.remove('translate-y-full');
             player.play();
         }
